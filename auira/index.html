@@ -736,6 +736,11 @@ a{color:var(--trk)} a:focus-visible,button:focus-visible,summary:focus-visible{o
 }
 @keyframes draw{from{stroke-dashoffset:1}to{stroke-dashoffset:0}}
 @keyframes rfade{to{opacity:.16}} @keyframes rfadei{to{opacity:.3}}
+/* tornar */
+.back{display:inline-flex;align-items:center;gap:8px;min-height:44px;margin:-8px 0 var(--s3);font:500 14px/1 var(--sans);color:var(--ink-2);text-decoration:none}
+.back:hover{color:var(--trk)} .back svg,nav.toc .home svg{width:16px;height:16px;fill:none;stroke:currentColor;stroke-width:2;transition:transform .15s}
+.back:hover svg,nav.toc .home a:hover svg{transform:translateX(-3px)}
+nav.toc .home a{display:flex;align-items:center;gap:6px;color:var(--ink);font-weight:600;padding-right:16px;border-right:1px solid var(--line);margin-right:4px}
 /* navegació */
 nav.toc{position:sticky;top:0;z-index:1000;background:rgba(246,244,238,.94);backdrop-filter:blur(6px);border-bottom:1px solid var(--line)}
 nav.toc ul{list-style:none;margin:0;padding:0 var(--s4);display:flex;gap:var(--s1);overflow-x:auto;scrollbar-width:none;max-width:var(--wrap);margin:0 auto}
@@ -919,6 +924,7 @@ dialog button{all:unset;cursor:pointer;color:#fff;font:500 14px var(--sans);padd
   <div class="wrap hero-in">
     <div class="hero-g">
       <div class="hero-txt">
+        <a class="back" href="../"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M19 12H5M11 6l-6 6 6 6"/></svg>Tots els itineraris</a>
         <p class="eyebrow"><span class="mark" aria-hidden="true"></span>Revisió de camp · 14 de novembre de 2026</p>
         <div class="clients"><img src="../assets/cein_ripolles.png" alt="Consorci d'Espais d'Interès Natural del Ripollès" height="40"><img class="lg-at" src="../assets/alt_ter.png" alt="Alt Ter Educació Ambiental" height="50"></div>
         <h1>Itinerari de Sant Pere d'Aüira</h1>
@@ -934,6 +940,7 @@ dialog button{all:unset;cursor:pointer;color:#fff;font:500 14px var(--sans);padd
 </header>
 <nav class="toc" aria-label="Apartats">
   <ul>
+    <li class="home"><a href="../" aria-label="Torna a tots els itineraris"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M19 12H5M11 6l-6 6 6 6"/></svg>Itineraris</a></li>
     <li><a href="#resum">Resum</a></li>
     <li><a href="#mapa">Mapa</a></li>
     <li><a href="#datum">Fitxers de 2008</a></li>
@@ -1087,7 +1094,7 @@ dialog button{all:unset;cursor:pointer;color:#fff;font:500 14px var(--sans);padd
     </div>
   </section>
 </main>
-<footer><div class="wrap"><span>Itinerari de Sant Pere d'Aüira · Revisió de camp 2026 · Pol del Pozo</span><span>Mapa de fons: © Institut Cartogràfic i Geològic de Catalunya</span></div></footer>
+<footer><div class="wrap"><a href="../" style="color:var(--ink-2)">← Tots els itineraris</a><span>Itinerari de Sant Pere d'Aüira · Revisió de camp 2026 · Pol del Pozo</span><span>Mapa de fons: © Institut Cartogràfic i Geològic de Catalunya</span></div></footer>
 
 <dialog id="viewer" aria-label="Fotografia"><img id="v-img" alt=""><div class="dcap"><span id="v-cap"></span><button id="v-close" type="button">Tanca</button></div></dialog>
 
