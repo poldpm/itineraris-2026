@@ -9,7 +9,7 @@
     <name>W04 Bifurcació sense senyalitzar al barri de Vistalegre</name>
     <desc>Punt conflictiu d'orientació · km 0,07 · prioritat alta
 Bifurcació enmig del barri de Vistalegre sense cap marca. Per saber si calia anar a la dreta o a l'esquerra va caldre aturar-se més de 3 minuts a comparar el mapa, el GPX de 2008 i fotografies. Ni coneixent el poble i havent fet la ruta moltes vegades és evident per on continua l'itinerari.
-Proposta: Marca groga de canvi de direcció (en L) a la cruïlla i marca de continuïtat visible just després.</desc>
+Proposta: Senyal vertical (banderola) que indiqui la direcció de l'itinerari, marca groga de canvi de direcció (en L) a la cruïlla i marca de continuïtat visible just després.</desc>
     <sym>Flag, Red</sym>
     <type>Punt conflictiu d'orientació</type>
   </wpt>
@@ -53,7 +53,7 @@ Franja groga en un pal de fusta. És la primera marca que es troba un cop s'ha d
     <desc>Punt conflictiu d'orientació · km 1,92 · prioritat mitjana
 En arribar a aquesta zona, el terreny convida a pujar recte amunt per un trencadís o pedregam. Si no t'hi fixes, no veus que el camí de l'itinerari surt cap a l'esquerra i, des d'allà, puja fent esses. Pujant recte s'arriba igualment a dalt, però fora del camí. L'única marca groga que indica el camí correcte és W09, desdibuixada i situada quan ja s'ha girat.
 Risc: Fàcil pujar recte pel pedregam i sortir del camí.
-Proposta: Marca groga en L a l'inici del gir a l'esquerra i creu groga a la pujada recta pel pedregam.</desc>
+Proposta: Senyal vertical (banderola) a l'inici del gir a l'esquerra, marca groga en L i creu groga a la pujada recta pel pedregam.</desc>
     <sym>Flag, Blue</sym>
     <type>Punt conflictiu d'orientació</type>
   </wpt>
@@ -104,7 +104,7 @@ Foto feta per documentar el tipus de marca groga d'aquest tram de l'itinerari: u
     <desc>Punt conflictiu d'orientació · km 2,77 · prioritat alta
 Segons el mapa i el traçat de l'itinerari, aquí cal fer un revolt cap a l'esquerra i baixar. No hi ha cap senyal que indiqui Sant Pere d'Aüira cap a l'esquerra ni cap marca groga de canvi de direcció (en forma de L o escaire) que faci baixar. Cal obrir el mapa i mirar bé cap on va el corriol marcat. A més, el camí correcte obliga a travessar un rierol, cosa que fa pensar a qualsevol que no pot ser per allà. En canvi, hi ha l'opció de seguir recte.
 Risc: Molt fàcil que la gent segueixi recte i es perdi.
-Proposta: Marca groga en L al revolt, creu groga a l'opció de seguir recte i marca de continuïtat a l'altra banda del rierol.</desc>
+Proposta: Senyal vertical (banderola) al revolt, marca groga en L, creu groga a l'opció de seguir recte i marca de continuïtat a l'altra banda del rierol.</desc>
     <sym>Flag, Red</sym>
     <type>Punt conflictiu d'orientació</type>
   </wpt>
@@ -141,7 +141,7 @@ Proposta: Molta senyalització groga i senyal vertical (banderola) indicant Sant
     <name>W16 Pas del corriol a la pista amb un bailet doble</name>
     <desc>Senyalització deficient · km 3,47 · prioritat baixa
 Punt de transició del corriol a la pista. Hi ha una porta de dos bailets, un a sobre de l'altre, que cal obrir i tornar a tancar. Cal revisar la zona per confirmar que l'itinerari torna a agafar la pista. No és un punt greu.
-Proposta: Una mica de senyalització i més marques grogues.</desc>
+Proposta: Senyal vertical (banderola) i més marques grogues.</desc>
     <sym>Flag, Blue</sym>
     <type>Senyalització deficient</type>
   </wpt>
@@ -151,7 +151,7 @@ Proposta: Una mica de senyalització i més marques grogues.</desc>
     <desc>Punt conflictiu d'orientació · km 4,70 · prioritat alta
 Bifurcació on l'itinerari continua recte i surt una pista cap a l'esquerra. Hi ha molt poca marca groga i costa saber que s'ha de continuar recte. A la pista de l'esquerra no hi ha cap creu groga que indiqui que per allà no s'ha de passar.
 Risc: Pot crear bastanta confusió i fer agafar la pista de l'esquerra.
-Proposta: Reforçar les marques de continuïtat a la bifurcació i pintar una creu groga a l'entrada de la pista de l'esquerra.</desc>
+Proposta: Senyal vertical (banderola) que indiqui que l'itinerari continua recte, reforç de les marques de continuïtat i creu groga a l'entrada de la pista de l'esquerra.</desc>
     <sym>Flag, Red</sym>
     <type>Punt conflictiu d'orientació</type>
   </wpt>

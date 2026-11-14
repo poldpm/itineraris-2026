@@ -2,7 +2,7 @@
 <gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="Revisió de camp 2026 · Itinerari de Sant Pere d'Aüira">
   <metadata>
     <name>Itinerari de Sant Pere d'Aüira · senyalització proposada</name>
-    <desc>Plafó d'inici (dues opcions) i banderoles proposades als punts conflictius. Revisió de camp 14/11/2026.</desc>
+    <desc>Plafó d'inici (dues opcions), banderoles noves a tots els punts conflictius i cartells existents que es mantenen. Revisió de camp 14/11/2026.</desc>
   </metadata>
   <wpt lat="42.22458" lon="2.167098">
     <name>Plafó d'inici · opció A: inici tradicional a l'església</name>
@@ -16,9 +16,21 @@
     <sym>Information</sym>
     <type>Plafó proposat</type>
   </wpt>
+  <wpt lat="42.224704" lon="2.166262">
+    <name>Banderola · W04</name>
+    <desc>Indicar la direcció de l'itinerari de Sant Pere d'Aüira a la bifurcació del barri.</desc>
+    <sym>Flag, Green</sym>
+    <type>Banderola proposada</type>
+  </wpt>
   <wpt lat="42.23753" lon="2.16407">
     <name>Banderola · W06</name>
     <desc>Indicar Sant Pere d'Aüira pel corriol de la dreta.</desc>
+    <sym>Flag, Green</sym>
+    <type>Banderola proposada</type>
+  </wpt>
+  <wpt lat="42.238397" lon="2.163243">
+    <name>Banderola · W13</name>
+    <desc>Indicar Sant Pere d'Aüira cap a l'esquerra, no recte amunt pel pedregam.</desc>
     <sym>Flag, Green</sym>
     <type>Banderola proposada</type>
   </wpt>
@@ -28,9 +40,27 @@
     <sym>Flag, Green</sym>
     <type>Banderola proposada</type>
   </wpt>
+  <wpt lat="42.240906" lon="2.161303">
+    <name>Banderola · W08</name>
+    <desc>Indicar Sant Pere d'Aüira cap a l'esquerra, baixant cap al rierol.</desc>
+    <sym>Flag, Green</sym>
+    <type>Banderola proposada</type>
+  </wpt>
   <wpt lat="42.243411" lon="2.161247">
     <name>Banderola · W15</name>
     <desc>Indicar Sant Pere d'Aüira pel camí de la dreta.</desc>
+    <sym>Flag, Green</sym>
+    <type>Banderola proposada</type>
+  </wpt>
+  <wpt lat="42.245103" lon="2.160432">
+    <name>Banderola · W16</name>
+    <desc>Indicar la continuïtat de l'itinerari en arribar a la pista.</desc>
+    <sym>Flag, Green</sym>
+    <type>Banderola proposada</type>
+  </wpt>
+  <wpt lat="42.248568" lon="2.15565">
+    <name>Banderola · W17</name>
+    <desc>Indicar que l'itinerari continua recte, no per la pista de l'esquerra.</desc>
     <sym>Flag, Green</sym>
     <type>Banderola proposada</type>
   </wpt>
@@ -39,5 +69,77 @@
     <desc>Indicar Sant Pere d'Aüira pel camí de l'esquerra.</desc>
     <sym>Flag, Green</sym>
     <type>Banderola proposada</type>
+  </wpt>
+  <wpt lat="42.224617" lon="2.166877">
+    <name>C01 · existent</name>
+    <desc>Cartell existent (entrat a 123Survey). Es manté.</desc>
+    <sym>Information</sym>
+    <type>Cartell existent</type>
+  </wpt>
+  <wpt lat="42.224683" lon="2.166733">
+    <name>C02 · existent</name>
+    <desc>Cartell existent (entrat a 123Survey). Es manté.</desc>
+    <sym>Information</sym>
+    <type>Cartell existent</type>
+  </wpt>
+  <wpt lat="42.231318" lon="2.164737">
+    <name>C03 · existent</name>
+    <desc>Cartell existent (entrat a 123Survey). Es manté.</desc>
+    <sym>Information</sym>
+    <type>Cartell existent</type>
+  </wpt>
+  <wpt lat="42.241612" lon="2.162517">
+    <name>C04 · existent</name>
+    <desc>Cartell existent (entrat a 123Survey). Es manté.</desc>
+    <sym>Information</sym>
+    <type>Cartell existent</type>
+  </wpt>
+  <wpt lat="42.250137" lon="2.15773">
+    <name>C05 · existent</name>
+    <desc>Cartell existent (entrat a 123Survey). Es manté.</desc>
+    <sym>Information</sym>
+    <type>Cartell existent</type>
+  </wpt>
+  <wpt lat="42.247607" lon="2.145098">
+    <name>C06 · existent</name>
+    <desc>Cartell existent (entrat a 123Survey). Es manté.</desc>
+    <sym>Information</sym>
+    <type>Cartell existent</type>
+  </wpt>
+  <wpt lat="42.247337" lon="2.145397">
+    <name>C07 · existent</name>
+    <desc>Cartell existent (entrat a 123Survey). Es manté.</desc>
+    <sym>Information</sym>
+    <type>Cartell existent</type>
+  </wpt>
+  <wpt lat="42.228432" lon="2.162157">
+    <name>C08 · existent</name>
+    <desc>Cartell existent (entrat a 123Survey). Es manté.</desc>
+    <sym>Information</sym>
+    <type>Cartell existent</type>
+  </wpt>
+  <wpt lat="42.225857" lon="2.163612">
+    <name>C09 · existent</name>
+    <desc>Cartell existent (entrat a 123Survey). Es manté.</desc>
+    <sym>Information</sym>
+    <type>Cartell existent</type>
+  </wpt>
+  <wpt lat="42.225197" lon="2.163558">
+    <name>C10 · existent</name>
+    <desc>Cartell existent (entrat a 123Survey). Es manté.</desc>
+    <sym>Information</sym>
+    <type>Cartell existent</type>
+  </wpt>
+  <wpt lat="42.225282" lon="2.163117">
+    <name>C11 · existent</name>
+    <desc>Cartell existent (entrat a 123Survey). Es manté.</desc>
+    <sym>Information</sym>
+    <type>Cartell existent</type>
+  </wpt>
+  <wpt lat="42.225692" lon="2.161855">
+    <name>C12 · existent</name>
+    <desc>Cartell existent (entrat a 123Survey). Es manté.</desc>
+    <sym>Information</sym>
+    <type>Cartell existent</type>
   </wpt>
 </gpx>

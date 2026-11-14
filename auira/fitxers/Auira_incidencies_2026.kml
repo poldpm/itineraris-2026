@@ -9,7 +9,7 @@
 <Style id="info"><IconStyle><color>ff606b5b</color></IconStyle></Style>
 <Placemark><name>W04 Bifurcació sense senyalitzar al barri de Vistalegre</name><description>Punt conflictiu d&#x27;orientació · km 0,07 · prioritat alta
 Bifurcació enmig del barri de Vistalegre sense cap marca. Per saber si calia anar a la dreta o a l&#x27;esquerra va caldre aturar-se més de 3 minuts a comparar el mapa, el GPX de 2008 i fotografies. Ni coneixent el poble i havent fet la ruta moltes vegades és evident per on continua l&#x27;itinerari.
-Proposta: Marca groga de canvi de direcció (en L) a la cruïlla i marca de continuïtat visible just després.</description><styleUrl>#alta</styleUrl><Point><coordinates>2.1662620,42.2247040</coordinates></Point></Placemark>
+Proposta: Senyal vertical (banderola) que indiqui la direcció de l&#x27;itinerari, marca groga de canvi de direcció (en L) a la cruïlla i marca de continuïtat visible just després.</description><styleUrl>#alta</styleUrl><Point><coordinates>2.1662620,42.2247040</coordinates></Point></Placemark>
 <Placemark><name>W05 Única marca groga del tram T01</name><description>Marca de pintura · km 0,26 · prioritat alta
 Única marca groga de tot el tram des de l&#x27;inici fins a la bifurcació de Puigcorbé. Està pintada a la base de formigó d&#x27;un armari metàl·lic de serveis, arran de terra. No es veu, tant per la pintura descolorida com per la ubicació: només la troba qui ja sap que hi és i la va a buscar expressament.</description><styleUrl>#alta</styleUrl><Point><coordinates>2.1661520,42.2260320</coordinates></Point></Placemark>
 <Placemark><name>W01 Bifurcació de la casa de Puigcorbé (primer senyal de l&#x27;itinerari)</name><description>Senyal direccional · km 0,91
@@ -23,7 +23,7 @@ Franja groga en un pal de fusta. És la primera marca que es troba un cop s&#x27
 <Placemark><name>W13 Pedregam que convida a pujar recte; l&#x27;itinerari gira a l&#x27;esquerra</name><description>Punt conflictiu d&#x27;orientació · km 1,92 · prioritat mitjana
 En arribar a aquesta zona, el terreny convida a pujar recte amunt per un trencadís o pedregam. Si no t&#x27;hi fixes, no veus que el camí de l&#x27;itinerari surt cap a l&#x27;esquerra i, des d&#x27;allà, puja fent esses. Pujant recte s&#x27;arriba igualment a dalt, però fora del camí. L&#x27;única marca groga que indica el camí correcte és W09, desdibuixada i situada quan ja s&#x27;ha girat.
 Risc: Fàcil pujar recte pel pedregam i sortir del camí.
-Proposta: Marca groga en L a l&#x27;inici del gir a l&#x27;esquerra i creu groga a la pujada recta pel pedregam.</description><styleUrl>#mitjana</styleUrl><Point><coordinates>2.1632430,42.2383970</coordinates></Point></Placemark>
+Proposta: Senyal vertical (banderola) a l&#x27;inici del gir a l&#x27;esquerra, marca groga en L i creu groga a la pujada recta pel pedregam.</description><styleUrl>#mitjana</styleUrl><Point><coordinates>2.1632430,42.2383970</coordinates></Point></Placemark>
 <Placemark><name>W09 Única marca del desviament a l&#x27;esquerra (W13)</name><description>Marca de pintura · km 1,92
 Única marca groga que indica que l&#x27;itinerari va per l&#x27;esquerra i no recte amunt pel pedregam (vegeu W13). Costa moltíssim de trobar: no és al punt on cal decidir sinó uns metres després, quan ja s&#x27;ha girat. Està desdibuixada i gairebé no es veu. És una marca de continuïtat (línia horitzontal), no de canvi de direcció.</description><styleUrl>#info</styleUrl><Point><coordinates>2.1632290,42.2384130</coordinates></Point></Placemark>
 <Placemark><name>W10 Primera marca groga funcional de l&#x27;itinerari</name><description>Marca de pintura · km 2,08
@@ -38,7 +38,7 @@ Foto feta per documentar el tipus de marca groga d&#x27;aquest tram de l&#x27;it
 <Placemark><name>W08 Revolt tancat a l&#x27;esquerra baixant cap al rierol, sense senyalitzar</name><description>Punt conflictiu d&#x27;orientació · km 2,77 · prioritat alta
 Segons el mapa i el traçat de l&#x27;itinerari, aquí cal fer un revolt cap a l&#x27;esquerra i baixar. No hi ha cap senyal que indiqui Sant Pere d&#x27;Aüira cap a l&#x27;esquerra ni cap marca groga de canvi de direcció (en forma de L o escaire) que faci baixar. Cal obrir el mapa i mirar bé cap on va el corriol marcat. A més, el camí correcte obliga a travessar un rierol, cosa que fa pensar a qualsevol que no pot ser per allà. En canvi, hi ha l&#x27;opció de seguir recte.
 Risc: Molt fàcil que la gent segueixi recte i es perdi.
-Proposta: Marca groga en L al revolt, creu groga a l&#x27;opció de seguir recte i marca de continuïtat a l&#x27;altra banda del rierol.</description><styleUrl>#alta</styleUrl><Point><coordinates>2.1613030,42.2409060</coordinates></Point></Placemark>
+Proposta: Senyal vertical (banderola) al revolt, marca groga en L, creu groga a l&#x27;opció de seguir recte i marca de continuïtat a l&#x27;altra banda del rierol.</description><styleUrl>#alta</styleUrl><Point><coordinates>2.1613030,42.2409060</coordinates></Point></Placemark>
 <Placemark><name>N01 Pas del rierol</name><description>Informació · km 2,81
 Pas del rierol. El dia de la visita baixava bastant ple i no era fàcil de saltar: cal mirar per on passar.</description><styleUrl>#info</styleUrl><Point><coordinates>2.1609640,42.2410850</coordinates></Point></Placemark>
 <Placemark><name>W14 Dos perfils metàl·lics rovellats que tallen el camí</name><description>Obstacle · km 3,01 · prioritat mitjana
@@ -51,11 +51,11 @@ Risc: Sortir de l&#x27;itinerari; possibilitat d&#x27;acabar al Puig de la Batal
 Proposta: Molta senyalització groga i senyal vertical (banderola) indicant Sant Pere d&#x27;Aüira pel camí de la dreta.</description><styleUrl>#alta</styleUrl><Point><coordinates>2.1612470,42.2434110</coordinates></Point></Placemark>
 <Placemark><name>W16 Pas del corriol a la pista amb un bailet doble</name><description>Senyalització deficient · km 3,47 · prioritat baixa
 Punt de transició del corriol a la pista. Hi ha una porta de dos bailets, un a sobre de l&#x27;altre, que cal obrir i tornar a tancar. Cal revisar la zona per confirmar que l&#x27;itinerari torna a agafar la pista. No és un punt greu.
-Proposta: Una mica de senyalització i més marques grogues.</description><styleUrl>#baixa</styleUrl><Point><coordinates>2.1604320,42.2451030</coordinates></Point></Placemark>
+Proposta: Senyal vertical (banderola) i més marques grogues.</description><styleUrl>#baixa</styleUrl><Point><coordinates>2.1604320,42.2451030</coordinates></Point></Placemark>
 <Placemark><name>W17 Bifurcació amb pista a l&#x27;esquerra: l&#x27;itinerari continua recte</name><description>Punt conflictiu d&#x27;orientació · km 4,70 · prioritat alta
 Bifurcació on l&#x27;itinerari continua recte i surt una pista cap a l&#x27;esquerra. Hi ha molt poca marca groga i costa saber que s&#x27;ha de continuar recte. A la pista de l&#x27;esquerra no hi ha cap creu groga que indiqui que per allà no s&#x27;ha de passar.
 Risc: Pot crear bastanta confusió i fer agafar la pista de l&#x27;esquerra.
-Proposta: Reforçar les marques de continuïtat a la bifurcació i pintar una creu groga a l&#x27;entrada de la pista de l&#x27;esquerra.</description><styleUrl>#alta</styleUrl><Point><coordinates>2.1556500,42.2485680</coordinates></Point></Placemark>
+Proposta: Senyal vertical (banderola) que indiqui que l&#x27;itinerari continua recte, reforç de les marques de continuïtat i creu groga a l&#x27;entrada de la pista de l&#x27;esquerra.</description><styleUrl>#alta</styleUrl><Point><coordinates>2.1556500,42.2485680</coordinates></Point></Placemark>
 <Placemark><name>W18 Cartell pintat a mà &quot;Pla de la Tomba amunt&quot;</name><description>Senyal no oficial · km 4,97
 Únic indicador del tram T03. Cartell pintat a mà amb el text &quot;Pla de la Tomba amunt&quot;. No és senyalització de l&#x27;itinerari.</description><styleUrl>#info</styleUrl><Point><coordinates>2.1576390,42.2500890</coordinates></Point></Placemark>
 <Placemark><name>W19 Bifurcació de la creu groga: final del traçat de 2008</name><description>Creu groga · km 7,78 · prioritat alta
