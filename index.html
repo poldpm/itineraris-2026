@@ -10,15 +10,19 @@
 .mark{display:inline-block;width:28px;height:8px;background:var(--sig)}
 h1{font:600 clamp(34px,6vw,56px)/1.1 'Serif',Georgia,serif;letter-spacing:-.02em;margin:16px 0}
 .lead{font-size:19px;color:var(--ink-2);max-width:60ch;margin:0 0 48px}
+
+.clients{display:flex;flex-wrap:wrap;align-items:center;gap:16px 40px;margin:-16px 0 48px}.clients img{height:48px;width:auto;display:block}@media(max-width:480px){.clients img{height:38px}}.clients img.lg-at{height:60px}@media(max-width:480px){.clients img.lg-at{height:48px}}
 a.it{display:grid;grid-template-columns:1fr auto;gap:8px 24px;align-items:center;background:var(--card);border:1px solid var(--line);border-radius:6px;padding:24px;text-decoration:none;color:inherit;transition:border-color .15s}
 a.it:hover{border-color:var(--trk)}a.it:focus-visible{outline:3px solid var(--sig);outline-offset:2px}
 a.it h2{font:600 26px/1.15 'Serif',Georgia,serif;margin:0}a.it p{margin:4px 0 0;color:var(--ink-2);font-size:15px}
+@media(max-width:560px){a.it{grid-template-columns:1fr}}
 a.it span{font:500 14px 'Plex',sans-serif;color:var(--trk);white-space:nowrap}
 footer{margin-top:64px;font-size:14px;color:var(--ink-3)}
 </style></head><body><main class="wrap">
 <p class="eyebrow"><span class="mark" aria-hidden="true"></span>Revisió de camp · 2026</p>
-<h1>Revisió d'itineraris</h1>
-<p class="lead">Per al Consorci d'Espais d'Interès Natural del Ripollès i el CEA Alt Ter.</p>
-<a class="it" href="auira/"><div><h2>Sant Pere d'Aüira</h2><p>Campdevànol · revisat el 14 de novembre de 2026 · informe, mapa i capes GPX/KML</p></div><span>Obre l'informe →</span></a>
+<h1>Revisió d’itineraris</h1>
+<p class="lead">Per al Consorci d’Espais d’Interès Natural del Ripollès i el CEA Alt Ter.</p>
+<div class="clients"><img src="assets/cein_ripolles.png" alt="Consorci d'Espais d'Interès Natural del Ripollès" height="48"><img class="lg-at" src="assets/alt_ter.png" alt="Alt Ter Educació Ambiental" height="60"></div>
+<a class="it" href="auira/"><div><h2>Sant Pere d’Aüira</h2><p>Campdevànol · revisat el 14 de novembre de 2026 · informe, mapa i capes GPX/KML</p></div><span>Obre l’informe →</span></a>
 <footer>Treball de camp: Pol del Pozo</footer>
 </main></body></html>

@@ -709,6 +709,11 @@ a{color:var(--trk)} a:focus-visible,button:focus-visible,summary:focus-visible{o
 .mark{display:inline-block;width:28px;height:8px;background:var(--sig);border-radius:1px}
 .hero h1{margin-bottom:var(--s4)}
 .hero .lead{margin-bottom:var(--s5)}
+.clients{display:flex;flex-wrap:wrap;align-items:center;gap:var(--s4) var(--s6);margin-bottom:var(--s5)}
+.clients .eyebrow{margin:0}
+.clients img{height:44px;width:auto;display:block}
+@media (max-width:480px){.clients img{height:36px}.clients{gap:var(--s3) var(--s5)}.clients .eyebrow{flex-basis:100%}}
+.clients img.lg-at{height:56px}@media (max-width:480px){.clients img.lg-at{height:46px}}
 .meta{display:grid;gap:var(--s2) var(--s6);grid-template-columns:1fr;font-size:15px;color:var(--ink-2)}
 .meta b{font-weight:600;color:var(--ink)}
 @media (min-width:768px){.meta{grid-template-columns:repeat(3,auto);justify-content:start}}
@@ -896,8 +901,8 @@ dialog button{all:unset;cursor:pointer;color:#fff;font:500 14px var(--sans);padd
     <p class="eyebrow"><span class="mark" aria-hidden="true"></span>Revisió de camp · 14 de novembre de 2026</p>
     <h1>Itinerari de Sant Pere d'Aüira</h1>
     <p class="lead">Campdevànol, Ripollès. Estat del recorregut, de la senyalització i dels fitxers oficials, revisats sobre el terreny.</p>
+    <div class="clients"><span class="eyebrow">Per a</span><img src="../assets/cein_ripolles.png" alt="Consorci d'Espais d'Interès Natural del Ripollès" height="44"><img class="lg-at" src="../assets/alt_ter.png" alt="Alt Ter Educació Ambiental" height="56"></div>
     <div class="meta">
-      <div><b>Per a</b> Consorci d'Espais d'Interès Natural del Ripollès · CEA Alt Ter</div>
       <div><b>Treball de camp</b> Pol del Pozo</div>
       <div><b>Data</b> 14/11/2026</div>
     </div>
