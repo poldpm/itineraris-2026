@@ -9,7 +9,7 @@
     <name>W04 Bifurcació sense senyalitzar al barri de Vistalegre</name>
     <desc>Punt conflictiu d'orientació · km 0,07 · prioritat alta
 Bifurcació enmig del barri de Vistalegre sense cap marca. Per saber si calia anar a la dreta o a l'esquerra va caldre aturar-se més de 3 minuts a comparar el mapa, el GPX de 2008 i fotografies. Ni coneixent el poble i havent fet la ruta moltes vegades és evident per on continua l'itinerari.
-Proposta: Senyal vertical (banderola) que indiqui la direcció de l'itinerari, marca groga de canvi de direcció (en L) a la cruïlla i marca de continuïtat visible just després.</desc>
+Proposta: Senyal vertical (banderola) que indiqui Sant Pere d'Aüira cap a la dreta, marca groga de canvi de direcció (en L) a la cruïlla i marca de continuïtat visible just després.</desc>
     <sym>Flag, Red</sym>
     <type>Punt conflictiu d'orientació</type>
   </wpt>
@@ -167,7 +167,7 @@ Proposta: Senyal vertical (banderola) que indiqui que l'itinerari continua recte
     <ele>951</ele>
     <name>W19 Bifurcació de la creu groga: final del traçat de 2008</name>
     <desc>Creu groga · km 7,78 · prioritat alta
-Bifurcació on el traçat de 2008 continua per la dreta, marcat amb una creu groga (per aquí no). L'itinerari senyalitzat actual continua per l'esquerra amb línia groga, i és el que s'ha seguit. Vegeu l'apartat «2008 i 2026».</desc>
+Bifurcació on el traçat de 2008 continua per la dreta, marcat amb una creu groga (per aquí no). L'itinerari senyalitzat actual continua per l'esquerra amb línia groga, i és el que s'ha seguit. Vegeu l'apartat «2008 i 2026». El mapa de l'itinerari de 2008 en PDF dibuixa la ruta per la dreta, pel tram tancat.</desc>
     <sym>Flag, Red</sym>
     <type>Creu groga</type>
   </wpt>
