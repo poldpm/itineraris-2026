@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="Revisió de camp 2026 · Itinerari de Sant Pere d'Aüira">
+  <metadata>
+    <name>Itinerari de Sant Pere d'Aüira · senyalització proposada</name>
+    <desc>Plafó d'inici (dues opcions) i banderoles proposades als punts conflictius. Revisió de camp 14/11/2026.</desc>
+  </metadata>
+  <wpt lat="42.22458" lon="2.167098">
+    <name>Plafó d'inici · opció A: inici tradicional a l'església</name>
+    <desc>Plafó d'inici de ruta a l'església, on comença tradicionalment l'itinerari (traçat de 2008).</desc>
+    <sym>Information</sym>
+    <type>Plafó proposat</type>
+  </wpt>
+  <wpt lat="42.222697" lon="2.165156">
+    <name>Plafó d'inici · opció B: ruta circular des de l'aparcament</name>
+    <desc>Plafó d'inici de ruta al cartell d'itinerari de l'aparcament, on porten les marques grogues actuals, per fer la ruta circular amb sortida i arribada al mateix punt.</desc>
+    <sym>Information</sym>
+    <type>Plafó proposat</type>
+  </wpt>
+  <wpt lat="42.23753" lon="2.16407">
+    <name>Banderola · W06</name>
+    <desc>Indicar Sant Pere d'Aüira pel corriol de la dreta.</desc>
+    <sym>Flag, Green</sym>
+    <type>Banderola proposada</type>
+  </wpt>
+  <wpt lat="42.239563" lon="2.161809">
+    <name>Banderola · W11</name>
+    <desc>Indicar Sant Pere d'Aüira pel camí de la dreta.</desc>
+    <sym>Flag, Green</sym>
+    <type>Banderola proposada</type>
+  </wpt>
+  <wpt lat="42.243411" lon="2.161247">
+    <name>Banderola · W15</name>
+    <desc>Indicar Sant Pere d'Aüira pel camí de la dreta.</desc>
+    <sym>Flag, Green</sym>
+    <type>Banderola proposada</type>
+  </wpt>
+  <wpt lat="42.235405" lon="2.157403">
+    <name>Banderola · W21</name>
+    <desc>Indicar Sant Pere d'Aüira pel camí de l'esquerra.</desc>
+    <sym>Flag, Green</sym>
+    <type>Banderola proposada</type>
+  </wpt>
+</gpx>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2"><Document>
+<name>Itinerari de Sant Pere d&#x27;Aüira · senyalització proposada</name>
+<Style id="trk"><LineStyle><color>ff766e0f</color><width>4</width></LineStyle></Style>
+<Style id="t08"><LineStyle><color>ffed3a7c</color><width>3</width></LineStyle></Style>
+<Style id="alta"><IconStyle><color>ff1823b4</color></IconStyle></Style>
+<Style id="mitjana"><IconStyle><color>ff0747b5</color></IconStyle></Style>
+<Style id="baixa"><IconStyle><color>ff0c8aca</color></IconStyle></Style>
+<Style id="info"><IconStyle><color>ff606b5b</color></IconStyle></Style>
+<Placemark><name>Plafó d&#x27;inici · opció A: inici tradicional a l&#x27;església</name><description>Plafó d&#x27;inici de ruta a l&#x27;església, on comença tradicionalment l&#x27;itinerari (traçat de 2008).</description><styleUrl>#baixa</styleUrl><Point><coordinates>2.1670980,42.2245800</coordinates></Point></Placemark>
+<Placemark><name>Plafó d&#x27;inici · opció B: ruta circular des de l&#x27;aparcament</name><description>Plafó d&#x27;inici de ruta al cartell d&#x27;itinerari de l&#x27;aparcament, on porten les marques grogues actuals, per fer la ruta circular amb sortida i arribada al mateix punt.</description><styleUrl>#baixa</styleUrl><Point><coordinates>2.1651560,42.2226970</coordinates></Point></Placemark>
+<Placemark><name>Banderola · W06</name><description>Indicar Sant Pere d&#x27;Aüira pel corriol de la dreta.</description><styleUrl>#baixa</styleUrl><Point><coordinates>2.1640700,42.2375300</coordinates></Point></Placemark>
+<Placemark><name>Banderola · W11</name><description>Indicar Sant Pere d&#x27;Aüira pel camí de la dreta.</description><styleUrl>#baixa</styleUrl><Point><coordinates>2.1618090,42.2395630</coordinates></Point></Placemark>
+<Placemark><name>Banderola · W15</name><description>Indicar Sant Pere d&#x27;Aüira pel camí de la dreta.</description><styleUrl>#baixa</styleUrl><Point><coordinates>2.1612470,42.2434110</coordinates></Point></Placemark>
+<Placemark><name>Banderola · W21</name><description>Indicar Sant Pere d&#x27;Aüira pel camí de l&#x27;esquerra.</description><styleUrl>#baixa</styleUrl><Point><coordinates>2.1574030,42.2354050</coordinates></Point></Placemark>
+</Document></kml>
