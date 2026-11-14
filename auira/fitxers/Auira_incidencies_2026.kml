@@ -58,6 +58,9 @@ Risc: Pot crear bastanta confusió i fer agafar la pista de l&#x27;esquerra.
 Proposta: Senyal vertical (banderola) que indiqui que l&#x27;itinerari continua recte, reforç de les marques de continuïtat i creu groga a l&#x27;entrada de la pista de l&#x27;esquerra.</description><styleUrl>#alta</styleUrl><Point><coordinates>2.1556500,42.2485680</coordinates></Point></Placemark>
 <Placemark><name>W18 Cartell pintat a mà &quot;Pla de la Tomba amunt&quot;</name><description>Senyal no oficial · km 4,97
 Únic indicador del tram T03. Cartell pintat a mà amb el text &quot;Pla de la Tomba amunt&quot;. No és senyalització de l&#x27;itinerari.</description><styleUrl>#info</styleUrl><Point><coordinates>2.1576390,42.2500890</coordinates></Point></Placemark>
+<Placemark><name>W23 Sortida de Sant Pere d&#x27;Aüira sense indicació de seguir la línia groga</name><description>Punt conflictiu d&#x27;orientació · km 7,00 · prioritat mitjana
+Prop de Sant Pere d&#x27;Aüira, cap al km 7, falta informació que indiqui que cal seguir la línia groga.
+Proposta: Banderola d&#x27;Itinerànnia amb direcció Campdevànol.</description><styleUrl>#mitjana</styleUrl><Point><coordinates>2.1469860,42.2463010</coordinates></Point></Placemark>
 <Placemark><name>W19 Bifurcació de la creu groga: final del traçat de 2008</name><description>Creu groga · km 7,78 · prioritat alta
 Bifurcació on el traçat de 2008 continua per la dreta, marcat amb una creu groga (per aquí no). L&#x27;itinerari senyalitzat actual continua per l&#x27;esquerra amb línia groga, i és el que s&#x27;ha seguit. Vegeu l&#x27;apartat «2008 i 2026». El mapa de l&#x27;itinerari de 2008 en PDF dibuixa la ruta per la dreta, pel tram tancat.</description><styleUrl>#alta</styleUrl><Point><coordinates>2.1466290,42.2407280</coordinates></Point></Placemark>
 <Placemark><name>W20 Bailet fixat que travessa el camí i no es pot obrir</name><description>Obstacle · km 8,85 · prioritat alta

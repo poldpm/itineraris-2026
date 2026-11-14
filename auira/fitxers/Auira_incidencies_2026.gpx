@@ -163,6 +163,15 @@ Proposta: Senyal vertical (banderola) que indiqui que l'itinerari continua recte
     <sym>Information</sym>
     <type>Senyal no oficial</type>
   </wpt>
+  <wpt lat="42.246301" lon="2.146986">
+    <ele>1047</ele>
+    <name>W23 Sortida de Sant Pere d'Aüira sense indicació de seguir l</name>
+    <desc>Punt conflictiu d'orientació · km 7,00 · prioritat mitjana
+Prop de Sant Pere d'Aüira, cap al km 7, falta informació que indiqui que cal seguir la línia groga.
+Proposta: Banderola d'Itinerànnia amb direcció Campdevànol.</desc>
+    <sym>Flag, Blue</sym>
+    <type>Punt conflictiu d'orientació</type>
+  </wpt>
   <wpt lat="42.240728" lon="2.146629">
     <ele>951</ele>
     <name>W19 Bifurcació de la creu groga: final del traçat de 2008</name>

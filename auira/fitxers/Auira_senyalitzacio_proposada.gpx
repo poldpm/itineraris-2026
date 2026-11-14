@@ -64,6 +64,12 @@
     <sym>Flag, Green</sym>
     <type>Banderola proposada</type>
   </wpt>
+  <wpt lat="42.246301" lon="2.146986">
+    <name>Banderola · W23</name>
+    <desc>Banderola d'Itinerànnia amb direcció Campdevànol.</desc>
+    <sym>Flag, Green</sym>
+    <type>Banderola proposada</type>
+  </wpt>
   <wpt lat="42.235405" lon="2.157403">
     <name>Banderola · W21</name>
     <desc>Indicar Sant Pere d'Aüira pel camí de l'esquerra.</desc>
