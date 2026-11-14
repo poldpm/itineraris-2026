@@ -709,18 +709,17 @@ a{color:var(--trk)} a:focus-visible,button:focus-visible,summary:focus-visible{o
 .hero h1{margin-bottom:var(--s4)}
 .hero .lead{margin-bottom:var(--s5)}
 .hero-in{position:relative}
-.hero-top{display:flex;flex-direction:column-reverse;gap:var(--s5);margin-bottom:var(--s5)}
-.hero-top .eyebrow{margin:0!important}
-.clients{display:flex;align-items:center;gap:var(--s5)}
+.hero .eyebrow{margin-bottom:var(--s4)!important}
+.clients{display:flex;align-items:center;gap:var(--s5);margin:0 0 var(--s5)}
 .clients img{height:34px;width:auto;display:block}.clients img.lg-at{height:44px}
-@media (min-width:900px){.hero-top{flex-direction:row;justify-content:space-between;align-items:center;margin-bottom:var(--s6)}.clients{gap:var(--s6)}.clients img{height:46px}.clients img.lg-at{height:58px}}
+@media (min-width:900px){.clients{gap:var(--s6)}.clients img{height:40px}.clients img.lg-at{height:50px}}
 .meta{display:grid;gap:var(--s2) var(--s6);grid-template-columns:1fr;font-size:15px;color:var(--ink-2)}
 .meta b{font-weight:600;color:var(--ink)}
 @media (min-width:768px){.meta{grid-template-columns:repeat(3,auto);justify-content:start}}
 /* art de la capçalera */
 .hero-g{display:grid;grid-template-columns:1fr;gap:var(--s4)}
 .hero-art{position:relative;height:320px;margin:0 -16px;-webkit-mask-image:radial-gradient(ellipse 72% 70% at 50% 50%,#000 58%,transparent 100%);mask-image:radial-gradient(ellipse 72% 70% at 50% 50%,#000 58%,transparent 100%)}
-@media (min-width:900px){.hero-g{grid-template-columns:minmax(0,1.25fr) minmax(0,1fr);align-items:center;gap:var(--s5)}.hero-art{height:440px;margin:-24px -24px -24px 0}}
+@media (min-width:900px){.hero-g{grid-template-columns:minmax(0,1.2fr) minmax(0,1fr);align-items:stretch;gap:var(--s5)}.hero-art{height:auto;min-height:440px;margin:-12px -24px -20px 0}}
 .art{position:absolute;inset:0;width:100%;height:100%}
 .art .rings path{fill:none;stroke:var(--trk);stroke-width:1;opacity:.16;vector-effect:non-scaling-stroke}
 .art .rings path.ri{stroke-width:1.7;opacity:.3}
@@ -918,10 +917,10 @@ dialog button{all:unset;cursor:pointer;color:#fff;font:500 14px var(--sans);padd
 <body>
 <header class="hero">
   <div class="wrap hero-in">
-    <div class="hero-top"><p class="eyebrow"><span class="mark" aria-hidden="true"></span>Revisió de camp · 14 de novembre de 2026</p>
-    <div class="clients"><img src="../assets/cein_ripolles.png" alt="Consorci d'Espais d'Interès Natural del Ripollès" height="44"><img class="lg-at" src="../assets/alt_ter.png" alt="Alt Ter Educació Ambiental" height="56"></div></div>
     <div class="hero-g">
       <div class="hero-txt">
+        <p class="eyebrow"><span class="mark" aria-hidden="true"></span>Revisió de camp · 14 de novembre de 2026</p>
+        <div class="clients"><img src="../assets/cein_ripolles.png" alt="Consorci d'Espais d'Interès Natural del Ripollès" height="40"><img class="lg-at" src="../assets/alt_ter.png" alt="Alt Ter Educació Ambiental" height="50"></div>
         <h1>Itinerari de Sant Pere d'Aüira</h1>
         <p class="lead">Campdevànol, Ripollès. Estat del recorregut, de la senyalització i dels fitxers oficials, revisats sobre el terreny.</p>
         <div class="meta">
