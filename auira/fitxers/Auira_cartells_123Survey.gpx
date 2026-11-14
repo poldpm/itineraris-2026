@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="Revisió de camp 2026 · Itinerari de Sant Pere d'Aüira">
+  <metadata>
+    <name>Itinerari de Sant Pere d'Aüira · cartells entrats a 123Survey</name>
+    <desc>Cartells registrats a 123Survey el 14/11/2026.</desc>
+  </metadata>
+  <wpt lat="42.224617" lon="2.166877">
+    <name>C01</name>
+    <desc>Cartell entrat a 123Survey</desc>
+    <sym>Information</sym>
+  </wpt>
+  <wpt lat="42.224683" lon="2.166733">
+    <name>C02</name>
+    <desc>Cartell entrat a 123Survey</desc>
+    <sym>Information</sym>
+  </wpt>
+  <wpt lat="42.231318" lon="2.164737">
+    <name>C03</name>
+    <desc>Cartell entrat a 123Survey</desc>
+    <sym>Information</sym>
+  </wpt>
+  <wpt lat="42.241612" lon="2.162517">
+    <name>C04</name>
+    <desc>Cartell entrat a 123Survey</desc>
+    <sym>Information</sym>
+  </wpt>
+  <wpt lat="42.250137" lon="2.15773">
+    <name>C05</name>
+    <desc>Cartell entrat a 123Survey</desc>
+    <sym>Information</sym>
+  </wpt>
+  <wpt lat="42.247607" lon="2.145098">
+    <name>C06</name>
+    <desc>Cartell entrat a 123Survey</desc>
+    <sym>Information</sym>
+  </wpt>
+  <wpt lat="42.247337" lon="2.145397">
+    <name>C07</name>
+    <desc>Cartell entrat a 123Survey</desc>
+    <sym>Information</sym>
+  </wpt>
+  <wpt lat="42.228432" lon="2.162157">
+    <name>C08</name>
+    <desc>Cartell entrat a 123Survey</desc>
+    <sym>Information</sym>
+  </wpt>
+  <wpt lat="42.225857" lon="2.163612">
+    <name>C09</name>
+    <desc>Cartell entrat a 123Survey</desc>
+    <sym>Information</sym>
+  </wpt>
+  <wpt lat="42.225197" lon="2.163558">
+    <name>C10</name>
+    <desc>Cartell entrat a 123Survey</desc>
+    <sym>Information</sym>
+  </wpt>
+  <wpt lat="42.225282" lon="2.163117">
+    <name>C11</name>
+    <desc>Cartell entrat a 123Survey</desc>
+    <sym>Information</sym>
+  </wpt>
+  <wpt lat="42.225692" lon="2.161855">
+    <name>C12</name>
+    <desc>Cartell entrat a 123Survey</desc>
+    <sym>Information</sym>
+  </wpt>
+</gpx>
