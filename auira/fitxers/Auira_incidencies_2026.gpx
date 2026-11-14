@@ -17,8 +17,7 @@ Proposta: Marca groga de canvi de direcció (en L) a la cruïlla i marca de cont
     <ele>757</ele>
     <name>W05 Única marca groga del tram T01</name>
     <desc>Marca de pintura · km 0,26 · prioritat alta
-Única marca groga de tot el tram des de l'inici fins a la bifurcació de Puigcorbé. Està pintada a la base de formigó d'un armari metàl·lic de serveis, arran de terra. No es veu, tant per la pintura descolorida com per la ubicació: només la troba qui ja sap que hi és i la va a buscar expressament.
-Proposta: Repintar la marca en un lloc visible, a l'alçada de la vista.</desc>
+Única marca groga de tot el tram des de l'inici fins a la bifurcació de Puigcorbé. Està pintada a la base de formigó d'un armari metàl·lic de serveis, arran de terra. No es veu, tant per la pintura descolorida com per la ubicació: només la troba qui ja sap que hi és i la va a buscar expressament.</desc>
     <sym>Flag, Red</sym>
     <type>Marca de pintura</type>
   </wpt>
@@ -62,8 +61,7 @@ Proposta: Marca groga en L a l'inici del gir a l'esquerra i creu groga a la puja
     <ele>774</ele>
     <name>W09 Única marca del desviament a l'esquerra (W13)</name>
     <desc>Marca de pintura · km 1,92
-Única marca groga que indica que l'itinerari va per l'esquerra i no recte amunt pel pedregam (vegeu W13). Costa moltíssim de trobar: no és al punt on cal decidir sinó uns metres després, quan ja s'ha girat. Està desdibuixada i gairebé no es veu. És una marca de continuïtat (línia horitzontal), no de canvi de direcció.
-Proposta: Repintar la marca i situar-la al punt de decisió, no després del gir.</desc>
+Única marca groga que indica que l'itinerari va per l'esquerra i no recte amunt pel pedregam (vegeu W13). Costa moltíssim de trobar: no és al punt on cal decidir sinó uns metres després, quan ja s'ha girat. Està desdibuixada i gairebé no es veu. És una marca de continuïtat (línia horitzontal), no de canvi de direcció.</desc>
     <sym>Information</sym>
     <type>Marca de pintura</type>
   </wpt>
@@ -77,18 +75,18 @@ Primera marca groga de tot l'itinerari que es veu bé i que indica realment per 
   </wpt>
   <wpt lat="42.239563" lon="2.161809">
     <ele>819</ele>
-    <name>W11 Bifurcació amb porta, l'itinerari va a la dreta pel camí</name>
+    <name>W11 Bifurcació amb bailet: l'itinerari va a la dreta pel cam</name>
     <desc>Punt conflictiu d'orientació · km 2,22 · prioritat mitjana
-Bifurcació on l'itinerari de Sant Pere d'Aüira va cap a la dreta. A l'esquerra surt un camí molt més ample que porta a una altra ruta. Hi ha la porta d'una tanca de pastor elèctric, que s'obre amb una maneta aïllant de plàstic amb ganxo, i una marca groga que només es veu si s'està atent. És un punt conflictiu: és fàcil seguir pel camí ample de l'esquerra i acabar fent una altra ruta.
+Bifurcació on l'itinerari de Sant Pere d'Aüira va cap a la dreta. A l'esquerra surt un camí molt més ample que porta a una altra ruta. Hi ha un bailet que es pot obrir i una marca groga que només es veu si s'està atent. És un punt conflictiu: és fàcil seguir pel camí ample de l'esquerra i acabar fent una altra ruta.
 Proposta: Senyal direccional més visible que indiqui Sant Pere d'Aüira pel camí de la dreta.</desc>
     <sym>Flag, Blue</sym>
     <type>Punt conflictiu d'orientació</type>
   </wpt>
   <wpt lat="42.239563" lon="2.161809">
     <ele>819</ele>
-    <name>N02 Pas de tanca ramadera amb maneta de ganxo</name>
+    <name>N02 Bailet</name>
     <desc>Informació · km 2,22
-Porta d'un tancat de bestiar amb pastor elèctric. S'obre amb la maneta aïllant de plàstic amb ganxo: es desenganxa, es passa i s'ha de tornar a tancar.</desc>
+Bailet que es pot obrir. Cal tornar-lo a tancar.</desc>
     <sym>Information</sym>
     <type>Informació</type>
   </wpt>
@@ -96,8 +94,7 @@ Porta d'un tancat de bestiar amb pastor elèctric. S'obre amb la maneta aïllant
     <ele>792</ele>
     <name>W12 Marca groga gairebé invisible (tram km 2,75-2,80)</name>
     <desc>Marca de pintura · km 2,55
-Foto feta per documentar el tipus de marca groga d'aquest tram de l'itinerari: una línia groga que no es veu.
-Proposta: Repintar la marca.</desc>
+Foto feta per documentar el tipus de marca groga d'aquest tram de l'itinerari: una línia groga que no es veu.</desc>
     <sym>Information</sym>
     <type>Marca de pintura</type>
   </wpt>
@@ -141,9 +138,9 @@ Proposta: Molta senyalització groga i senyal vertical (banderola) indicant Sant
   </wpt>
   <wpt lat="42.245103" lon="2.160432">
     <ele>816</ele>
-    <name>W16 Pas del corriol a la pista amb doble porta de pastor elè</name>
+    <name>W16 Pas del corriol a la pista amb un bailet doble</name>
     <desc>Senyalització deficient · km 3,47 · prioritat baixa
-Punt de transició del corriol a la pista. Hi ha dues portes de tanca de pastor elèctric seguides, amb maneta aïllant, que cal obrir i tornar a tancar. Cal revisar la zona per confirmar que l'itinerari torna a agafar la pista. No és un punt greu.
+Punt de transició del corriol a la pista. Hi ha una porta de dos bailets, un a sobre de l'altre, que cal obrir i tornar a tancar. Cal revisar la zona per confirmar que l'itinerari torna a agafar la pista. No és un punt greu.
 Proposta: Una mica de senyalització i més marques grogues.</desc>
     <sym>Flag, Blue</sym>
     <type>Senyalització deficient</type>
@@ -176,11 +173,11 @@ Bifurcació on el traçat de 2008 continua per la dreta, marcat amb una creu gro
   </wpt>
   <wpt lat="42.23608" lon="2.15623">
     <ele>972</ele>
-    <name>W20 Tanca de pastor fixada que travessa el camí sense porta </name>
+    <name>W20 Bailet fixat que travessa el camí i no es pot obrir</name>
     <desc>Obstacle · km 8,85 · prioritat alta
-Una tanca de pastor (cordill blau i cordill blanc) travessa el camí de l'itinerari. Fins fa poc més de dos mesos hi havia una porta amb maneta aïllant de plàstic i ganxo que es podia obrir i tancar. Ara està fixada i no es pot obrir: per continuar l'itinerari cal passar per sota.
-Risc: Obliga a passar per sota d'una tanca de pastor elèctric. El dia de la visita no hi havia corrent, i en aquest punt el tram que travessa el camí s'uneix amb una peça de plàstic aïllant, de manera que el circuit hi queda obert. Tot i així és una tanca elèctrica, i si s'electrifiqués el pas per sota comportaria risc de descàrrega.
-Proposta: Restablir una porta practicable a la tanca, amb maneta aïllant, d'acord amb el propietari, i un cartell que recordi tancar-la.</desc>
+Un bailet (cordill blau i cordill blanc) travessa el camí de l'itinerari. Fins fa poc més de dos mesos es podia obrir i tancar. Ara està fixat i no es pot obrir: per continuar l'itinerari cal passar per sota.
+Risc: Obliga a passar per sota d'un bailet elèctric. El dia de la visita no hi havia corrent; si s'electrifiqués, passar-hi per sota comportaria risc de descàrrega.
+Proposta: Que el bailet es torni a poder obrir, d'acord amb el propietari, amb un cartell que recordi tancar-lo.</desc>
     <sym>Flag, Red</sym>
     <type>Obstacle</type>
   </wpt>
