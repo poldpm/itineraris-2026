@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2"><Document>
+<name>Itinerari de Sant Julià de Saltor · senyalització proposada</name>
+<Style id="trk"><LineStyle><color>ff766e0f</color><width>4</width></LineStyle></Style>
+<Style id="t08"><LineStyle><color>ffed3a7c</color><width>3</width></LineStyle></Style>
+<Style id="alta"><IconStyle><color>ff1823b4</color></IconStyle></Style>
+<Style id="mant"><IconStyle><color>ff0747b5</color></IconStyle></Style>
+<Style id="rec"><IconStyle><color>ff7a5a1f</color></IconStyle></Style>
+<Style id="info"><IconStyle><color>ff606b5b</color></IconStyle></Style>
+<Placemark><name>Plafó d&#x27;inici · cartellera inicial existent (C01)</name><description>Plafó d&#x27;inici de ruta: la cartellera inicial existent (C01), a la sortida i arribada de la ruta circular. Es manté.</description><styleUrl>#rec</styleUrl><Point><coordinates>2.1683020,42.2347030</coordinates></Point></Placemark>
+<Placemark><name>Banderola · W01</name><description>Senyal vertical (banderola) a bifurcació on l&#x27;instint fa seguir per la pista ampla.</description><styleUrl>#rec</styleUrl><Point><coordinates>2.1713300,42.2356100</coordinates></Point></Placemark>
+<Placemark><name>Banderola · W05</name><description>Senyal vertical (banderola) a bifurcacions sense línies grogues.</description><styleUrl>#rec</styleUrl><Point><coordinates>2.1745900,42.2380200</coordinates></Point></Placemark>
+<Placemark><name>Banderola · W09</name><description>Senyal vertical (banderola) a una sola creu groga i molts camins possibles.</description><styleUrl>#rec</styleUrl><Point><coordinates>2.1814300,42.2427000</coordinates></Point></Placemark>
+<Placemark><name>Banderola · W14</name><description>Senyal vertical (banderola) a espai molt obert amb una única línia groga amagada.</description><styleUrl>#rec</styleUrl><Point><coordinates>2.1950500,42.2545900</coordinates></Point></Placemark>
+<Placemark><name>Banderola · W18</name><description>Senyal vertical (banderola) a falta un senyal vertical amb el destí.</description><styleUrl>#rec</styleUrl><Point><coordinates>2.1925000,42.2545500</coordinates></Point></Placemark>
+<Placemark><name>Banderola · W19</name><description>Senyal vertical (banderola) a creu groga, però falten línies grogues o senyals verticals.</description><styleUrl>#rec</styleUrl><Point><coordinates>2.1807300,42.2510200</coordinates></Point></Placemark>
+<Placemark><name>Banderola · W20</name><description>Senyal vertical (banderola) a camí desdibuixat amb una pista a prop que confon.</description><styleUrl>#rec</styleUrl><Point><coordinates>2.1775200,42.2501400</coordinates></Point></Placemark>
+<Placemark><name>Banderola · W21</name><description>Senyal vertical (banderola) a només marques de GR i diverses opcions.</description><styleUrl>#rec</styleUrl><Point><coordinates>2.1746000,42.2499900</coordinates></Point></Placemark>
+<Placemark><name>Banderola · W22</name><description>Senyal vertical (banderola) a pista o camí del costat, sense indicació.</description><styleUrl>#rec</styleUrl><Point><coordinates>2.1752300,42.2492600</coordinates></Point></Placemark>
+<Placemark><name>Banderola · W23</name><description>Senyal vertical (banderola) a tres camins possibles i cap línia groga.</description><styleUrl>#rec</styleUrl><Point><coordinates>2.1753500,42.2484000</coordinates></Point></Placemark>
+<Placemark><name>Banderola · W25</name><description>Senyal vertical (banderola) a molts camins i línies contradictòries.</description><styleUrl>#rec</styleUrl><Point><coordinates>2.1715100,42.2370400</coordinates></Point></Placemark>
+<Placemark><name>C02 · existent</name><description>Cartell existent (entrat a 123Survey). Es manté.</description><styleUrl>#info</styleUrl><Point><coordinates>2.1682980,42.2347000</coordinates></Point></Placemark>
+<Placemark><name>C03 · existent</name><description>Cartell existent (entrat a 123Survey). Es manté.</description><styleUrl>#info</styleUrl><Point><coordinates>2.1746820,42.2378220</coordinates></Point></Placemark>
+<Placemark><name>C04 · existent</name><description>Cartell existent (entrat a 123Survey). Es manté.</description><styleUrl>#info</styleUrl><Point><coordinates>2.1754450,42.2381780</coordinates></Point></Placemark>
+<Placemark><name>C05 · existent</name><description>Cartell existent (entrat a 123Survey). Es manté.</description><styleUrl>#info</styleUrl><Point><coordinates>2.1878100,42.2448450</coordinates></Point></Placemark>
+<Placemark><name>C06 · existent</name><description>Cartell existent (entrat a 123Survey). Es manté.</description><styleUrl>#info</styleUrl><Point><coordinates>2.1938830,42.2466200</coordinates></Point></Placemark>
+<Placemark><name>C07 · existent</name><description>Cartell existent (entrat a 123Survey). Es manté.</description><styleUrl>#info</styleUrl><Point><coordinates>2.1939130,42.2466370</coordinates></Point></Placemark>
+<Placemark><name>C08 · existent</name><description>Cartell existent (entrat a 123Survey). Es manté.</description><styleUrl>#info</styleUrl><Point><coordinates>2.1936620,42.2486120</coordinates></Point></Placemark>
+<Placemark><name>C09 · existent</name><description>Cartell existent (entrat a 123Survey). Es manté.</description><styleUrl>#info</styleUrl><Point><coordinates>2.1958020,42.2529720</coordinates></Point></Placemark>
+<Placemark><name>C10 · existent</name><description>Cartell existent (entrat a 123Survey). Es manté.</description><styleUrl>#info</styleUrl><Point><coordinates>2.1935370,42.2562640</coordinates></Point></Placemark>
+<Placemark><name>C11 · existent</name><description>Cartell existent (entrat a 123Survey). Es manté.</description><styleUrl>#info</styleUrl><Point><coordinates>2.1937240,42.2564400</coordinates></Point></Placemark>
+<Placemark><name>C12 · existent</name><description>Cartell existent (entrat a 123Survey). Es manté.</description><styleUrl>#info</styleUrl><Point><coordinates>2.1921370,42.2563870</coordinates></Point></Placemark>
+<Placemark><name>C13 · existent</name><description>Cartell existent (entrat a 123Survey). Es manté.</description><styleUrl>#info</styleUrl><Point><coordinates>2.1921350,42.2563870</coordinates></Point></Placemark>
+<Placemark><name>C14 · existent</name><description>Cartell existent (entrat a 123Survey). Es manté.</description><styleUrl>#info</styleUrl><Point><coordinates>2.1939370,42.2521380</coordinates></Point></Placemark>
+<Placemark><name>C15 · existent</name><description>Cartell existent (entrat a 123Survey). Es manté.</description><styleUrl>#info</styleUrl><Point><coordinates>2.1845450,42.2531280</coordinates></Point></Placemark>
+<Placemark><name>C16 · existent</name><description>Cartell existent (entrat a 123Survey). Es manté.</description><styleUrl>#info</styleUrl><Point><coordinates>2.1754420,42.2502220</coordinates></Point></Placemark>
+<Placemark><name>C17 · existent</name><description>Cartell existent (entrat a 123Survey). Es manté.</description><styleUrl>#info</styleUrl><Point><coordinates>2.1750050,42.2496450</coordinates></Point></Placemark>
+<Placemark><name>C18 · existent</name><description>Cartell existent (entrat a 123Survey). Es manté.</description><styleUrl>#info</styleUrl><Point><coordinates>2.1758600,42.2441000</coordinates></Point></Placemark>
+<Placemark><name>C19 · existent</name><description>Cartell existent (entrat a 123Survey). Es manté.</description><styleUrl>#info</styleUrl><Point><coordinates>2.1681350,42.2349670</coordinates></Point></Placemark>
+</Document></kml>

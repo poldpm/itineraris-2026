@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2"><Document>
+<name>Itinerari de Sant Julià de Saltor · incidències, manteniment i recomanacions 2026</name>
+<Style id="trk"><LineStyle><color>ff766e0f</color><width>4</width></LineStyle></Style>
+<Style id="t08"><LineStyle><color>ffed3a7c</color><width>3</width></LineStyle></Style>
+<Style id="alta"><IconStyle><color>ff1823b4</color></IconStyle></Style>
+<Style id="mant"><IconStyle><color>ff0747b5</color></IconStyle></Style>
+<Style id="rec"><IconStyle><color>ff7a5a1f</color></IconStyle></Style>
+<Style id="info"><IconStyle><color>ff606b5b</color></IconStyle></Style>
+<Placemark><name>W01 Bifurcació on l&#x27;instint fa seguir per la pista ampla</name><description>Recomanació · km 0,27
+La línia groga es veu bé, però l&#x27;instint fa continuar per la pista més ampla.
+Proposta: Senyal vertical (banderola).</description><styleUrl>#rec</styleUrl><Point><coordinates>2.1713300,42.2356100</coordinates></Point></Placemark>
+<Placemark><name>W02 Bifurcació sense creu groga a l&#x27;esquerra</name><description>Recomanació · km 0,32
+A la bifurcació hi falta una creu groga a la branca de l&#x27;esquerra.
+Proposta: Creu groga a la branca de l&#x27;esquerra.</description><styleUrl>#rec</styleUrl><Point><coordinates>2.1716700,42.2360100</coordinates></Point></Placemark>
+<Placemark><name>W03 L&#x27;instint fa seguir recte i no hi ha creu groga</name><description>Incidència · km 0,65
+Hi ha línia groga i un cartell de fauna de Saltor, però l&#x27;instint fa continuar recte i no hi ha cap creu groga que ho eviti.
+Proposta: Creu groga a l&#x27;opció de seguir recte.</description><styleUrl>#alta</styleUrl><Point><coordinates>2.1746700,42.2377900</coordinates></Point></Placemark>
+<Placemark><name>W04 Pas del rierol sense marcar i arbre caigut al camí</name><description>Incidència · km 0,66
+El rierol es travessa bé, però no hi ha un pas ben marcat. Un cop passat, hi ha un arbre caigut al mig del camí.
+Proposta: Marcar el pas del rierol i retirar l&#x27;arbre caigut.</description><styleUrl>#alta</styleUrl><Point><coordinates>2.1746400,42.2379400</coordinates></Point></Placemark>
+<Placemark><name>W05 Bifurcacions sense línies grogues</name><description>Incidència · km 0,68
+Bifurcacions sense línies grogues. Només una creu groga, més al fons, permet orientar-se. Hi falten indicacions.
+Proposta: Senyal vertical (banderola) i marques grogues a les bifurcacions.</description><styleUrl>#alta</styleUrl><Point><coordinates>2.1745900,42.2380200</coordinates></Point></Placemark>
+<Placemark><name>W06 Primer senyal direccional, després d&#x27;un tram camp a través</name><description>Incidència · km 0,81
+Primer senyal direccional de l&#x27;itinerari. Els metres anteriors es fan camp a través, sense indicacions: només es troba el camí si es coneix el lloc.
+Proposta: Marcar el tram entre el rierol i aquest senyal.</description><styleUrl>#alta</styleUrl><Point><coordinates>2.1754700,42.2381700</coordinates></Point></Placemark>
+<Placemark><name>W07 Marques d&#x27;itinerari i de GR rascades</name><description>Manteniment · km 1,27
+Línies d&#x27;itinerari i de GR rascades i esborrades.</description><styleUrl>#mant</styleUrl><Point><coordinates>2.1776900,42.2412100</coordinates></Point></Placemark>
+<Placemark><name>W08 Camí a la dreta que pot confondre abans del trencant real</name><description>Recomanació · km 1,62
+Hi ha un camí cap a la dreta que pot confondre, perquè el trencant real cap a la dreta és pocs metres més enllà. Amb un GPS mal configurat és fàcil perdre&#x27;s, i és un camí molt complicat.
+Proposta: Creu groga al primer camí de la dreta.</description><styleUrl>#rec</styleUrl><Point><coordinates>2.1813300,42.2426000</coordinates></Point></Placemark>
+<Placemark><name>W09 Una sola creu groga i molts camins possibles</name><description>Recomanació · km 1,64
+Hi ha una sola creu groga, i cal fixar-s&#x27;hi bé per veure-la, i molts camins possibles. La marca en L no es veu fins que no se segueix bé el camí, i hi ha una línia groga a terra que costa de veure. Després, tot el gir cap al camí de la colònia Pernau i el coll de Graus està ben senyalitzat i és correcte.
+Proposta: Senyal vertical (banderola) i més marques.</description><styleUrl>#rec</styleUrl><Point><coordinates>2.1814300,42.2427000</coordinates></Point></Placemark>
+<Placemark><name>W10 Pedregar sense camí còmode</name><description>Recomanació · km 2,37
+Punt una mica conflictiu. A banda i banda hi ha creu i una línia groga fa pujar amunt, però és un pedregar sense un camí tan còmode com fins ara i la gent es pot confondre. Està ben indicat.</description><styleUrl>#rec</styleUrl><Point><coordinates>2.1875700,42.2450800</coordinates></Point></Placemark>
+<Placemark><name>W11 Bifurcació on cal anar a l&#x27;esquerra</name><description>Recomanació · km 2,51
+Bifurcació on cal anar cap a l&#x27;esquerra. Si s&#x27;hi fixa, hi ha línia groga, però un usuari poc acostumat a la muntanya s&#x27;hi pot perdre.</description><styleUrl>#rec</styleUrl><Point><coordinates>2.1889300,42.2454300</coordinates></Point></Placemark>
+<Placemark><name>W12 Desviament cap a la dreta</name><description>Recomanació · km 4,00
+Desviament cap a la dreta on una creu groga no hi estaria malament.
+Proposta: Creu groga.</description><styleUrl>#rec</styleUrl><Point><coordinates>2.1960300,42.2521900</coordinates></Point></Placemark>
+<Placemark><name>W13 El camí es talla i cal desviar-se</name><description>Recomanació · km 4,22
+Punt on el camí es talla i cal fer una desviació.
+Proposta: Marcar la desviació.</description><styleUrl>#rec</styleUrl><Point><coordinates>2.1950000,42.2539300</coordinates></Point></Placemark>
+<Placemark><name>W14 Espai molt obert amb una única línia groga amagada</name><description>Recomanació · km 4,30
+Punt confús. És un espai molt obert, amb una única línia groga bastant amagada.
+Proposta: Creus grogues i senyal vertical (banderola).</description><styleUrl>#rec</styleUrl><Point><coordinates>2.1950500,42.2545900</coordinates></Point></Placemark>
+<Placemark><name>W15 Bailet sense porta que obliga a passar per sota</name><description>Incidència · km 4,44
+Hi ha un pal amb línia groga, però el bailet no té porta: s&#x27;ha de passar per sota.
+Proposta: Que el bailet es pugui obrir.</description><styleUrl>#alta</styleUrl><Point><coordinates>2.1945000,42.2556100</coordinates></Point></Placemark>
+<Placemark><name>W16 Espai obert sense camí marcat</name><description>Recomanació · km 4,47
+Punt massa obert, sense camí marcat, on pot costar trobar la línia groga següent.</description><styleUrl>#rec</styleUrl><Point><coordinates>2.1944900,42.2559200</coordinates></Point></Placemark>
+<Placemark><name>W17 Bailet i estructures de ferro trencades</name><description>Manteniment · km 4,72
+Bailet i estructures de ferro trencades.</description><styleUrl>#mant</styleUrl><Point><coordinates>2.1921900,42.2564100</coordinates></Point></Placemark>
+<Placemark><name>W18 Falta un senyal vertical amb el destí</name><description>Recomanació · km 4,93
+Hi ha línia groga de sobres, però no hi estaria de més un senyal vertical amb el nom de cap a on es va.
+Proposta: Senyal vertical (banderola) amb el nom del destí.</description><styleUrl>#rec</styleUrl><Point><coordinates>2.1925000,42.2545500</coordinates></Point></Placemark>
+<Placemark><name>W19 Creu groga, però falten línies grogues o senyals verticals</name><description>Recomanació · km 7,23
+Hi ha una creu groga, però hi falten línies grogues o senyals verticals.
+Proposta: Línies grogues i senyal vertical (banderola).</description><styleUrl>#rec</styleUrl><Point><coordinates>2.1807300,42.2510200</coordinates></Point></Placemark>
+<Placemark><name>W20 Camí desdibuixat amb una pista a prop que confon</name><description>Recomanació · km 7,69
+Camí desdibuixat, amb una pista a prop que no interessa i que pot portar a confusió. Calen senyals.
+Proposta: Senyal vertical (banderola) i marques grogues.</description><styleUrl>#rec</styleUrl><Point><coordinates>2.1775200,42.2501400</coordinates></Point></Placemark>
+<Placemark><name>W21 Només marques de GR i diverses opcions</name><description>Recomanació · km 7,99
+Punt confús. Només hi ha marques de GR (blanc i vermell), el camí està desdibuixat i hi ha diverses opcions. Calen més senyals.
+Proposta: Senyal vertical (banderola) i marques grogues.</description><styleUrl>#rec</styleUrl><Point><coordinates>2.1746000,42.2499900</coordinates></Point></Placemark>
+<Placemark><name>W22 Pista o camí del costat, sense indicació</name><description>Recomanació · km 8,11
+No hi ha cap línia groga que indiqui si cal anar per la pista o pel camí del costat: no es veu fins que no es baixen uns metres pel camí.
+Proposta: Senyal vertical (banderola) que indiqui el camí.</description><styleUrl>#rec</styleUrl><Point><coordinates>2.1752300,42.2492600</coordinates></Point></Placemark>
+<Placemark><name>W23 Tres camins possibles i cap línia groga</name><description>Recomanació · km 8,57
+Tres camins possibles i cap línia groga.
+Proposta: Senyal vertical (banderola) i marques grogues.</description><styleUrl>#rec</styleUrl><Point><coordinates>2.1753500,42.2484000</coordinates></Point></Placemark>
+<Placemark><name>W24 Línia groga desdibuixada i mal ubicada</name><description>Manteniment · km 10,31
+Línia groga desdibuixada i mal ubicada, que porta per on no toca.</description><styleUrl>#mant</styleUrl><Point><coordinates>2.1741300,42.2415100</coordinates></Point></Placemark>
+<Placemark><name>W25 Molts camins i línies contradictòries</name><description>Recomanació · km 11,13
+Punt confús amb molts camins possibles i línies contradictòries. La línia groga correcta és uns metres més avall i no es veu de seguida.
+Proposta: Senyal vertical (banderola).</description><styleUrl>#rec</styleUrl><Point><coordinates>2.1715100,42.2370400</coordinates></Point></Placemark>
+<Placemark><name>W26 Bailet sense plàstic, difícil de veure</name><description>Manteniment · km 11,22
+Bailet amb porta però sense el plàstic, difícil de detectar.</description><styleUrl>#mant</styleUrl><Point><coordinates>2.1713500,42.2363600</coordinates></Point></Placemark>
+<Placemark><name>W27 Cadena metàl·lica que no es pot obrir</name><description>Manteniment · km 11,34
+Cadena metàl·lica que travessa el camí, sense opció d&#x27;obrir-la. Es salta fàcilment.</description><styleUrl>#mant</styleUrl><Point><coordinates>2.1700300,42.2360500</coordinates></Point></Placemark>
+</Document></kml>

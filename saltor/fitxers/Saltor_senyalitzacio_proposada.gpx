@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="Revisió de camp 2026 · Itinerari de Sant Julià de Saltor">
+  <metadata>
+    <name>Itinerari de Sant Julià de Saltor · senyalització proposada</name>
+    <desc>Plafó d'inici (cartellera existent), banderoles noves als punts confusos i cartells existents que es mantenen.</desc>
+  </metadata>
+  <wpt lat="42.234703" lon="2.168302">
+    <name>Plafó d'inici · cartellera inicial existent (C01)</name>
+    <desc>Plafó d'inici de ruta: la cartellera inicial existent (C01), a la sortida i arribada de la ruta circular. Es manté.</desc>
+    <sym>Information</sym>
+    <type>Plafó</type>
+  </wpt>
+  <wpt lat="42.23561" lon="2.17133">
+    <name>Banderola · W01</name>
+    <desc>Senyal vertical (banderola) a bifurcació on l'instint fa seguir per la pista ampla.</desc>
+    <sym>Flag, Green</sym>
+    <type>Banderola proposada</type>
+  </wpt>
+  <wpt lat="42.23802" lon="2.17459">
+    <name>Banderola · W05</name>
+    <desc>Senyal vertical (banderola) a bifurcacions sense línies grogues.</desc>
+    <sym>Flag, Green</sym>
+    <type>Banderola proposada</type>
+  </wpt>
+  <wpt lat="42.2427" lon="2.18143">
+    <name>Banderola · W09</name>
+    <desc>Senyal vertical (banderola) a una sola creu groga i molts camins possibles.</desc>
+    <sym>Flag, Green</sym>
+    <type>Banderola proposada</type>
+  </wpt>
+  <wpt lat="42.25459" lon="2.19505">
+    <name>Banderola · W14</name>
+    <desc>Senyal vertical (banderola) a espai molt obert amb una única línia groga amagada.</desc>
+    <sym>Flag, Green</sym>
+    <type>Banderola proposada</type>
+  </wpt>
+  <wpt lat="42.25455" lon="2.1925">
+    <name>Banderola · W18</name>
+    <desc>Senyal vertical (banderola) a falta un senyal vertical amb el destí.</desc>
+    <sym>Flag, Green</sym>
+    <type>Banderola proposada</type>
+  </wpt>
+  <wpt lat="42.25102" lon="2.18073">
+    <name>Banderola · W19</name>
+    <desc>Senyal vertical (banderola) a creu groga, però falten línies grogues o senyals verticals.</desc>
+    <sym>Flag, Green</sym>
+    <type>Banderola proposada</type>
+  </wpt>
+  <wpt lat="42.25014" lon="2.17752">
+    <name>Banderola · W20</name>
+    <desc>Senyal vertical (banderola) a camí desdibuixat amb una pista a prop que confon.</desc>
+    <sym>Flag, Green</sym>
+    <type>Banderola proposada</type>
+  </wpt>
+  <wpt lat="42.24999" lon="2.1746">
+    <name>Banderola · W21</name>
+    <desc>Senyal vertical (banderola) a només marques de GR i diverses opcions.</desc>
+    <sym>Flag, Green</sym>
+    <type>Banderola proposada</type>
+  </wpt>
+  <wpt lat="42.24926" lon="2.17523">
+    <name>Banderola · W22</name>
+    <desc>Senyal vertical (banderola) a pista o camí del costat, sense indicació.</desc>
+    <sym>Flag, Green</sym>
+    <type>Banderola proposada</type>
+  </wpt>
+  <wpt lat="42.2484" lon="2.17535">
+    <name>Banderola · W23</name>
+    <desc>Senyal vertical (banderola) a tres camins possibles i cap línia groga.</desc>
+    <sym>Flag, Green</sym>
+    <type>Banderola proposada</type>
+  </wpt>
+  <wpt lat="42.23704" lon="2.17151">
+    <name>Banderola · W25</name>
+    <desc>Senyal vertical (banderola) a molts camins i línies contradictòries.</desc>
+    <sym>Flag, Green</sym>
+    <type>Banderola proposada</type>
+  </wpt>
+  <wpt lat="42.2347" lon="2.168298">
+    <name>C02 · existent</name>
+    <desc>Cartell existent (entrat a 123Survey). Es manté.</desc>
+    <sym>Information</sym>
+    <type>Cartell existent</type>
+  </wpt>
+  <wpt lat="42.237822" lon="2.174682">
+    <name>C03 · existent</name>
+    <desc>Cartell existent (entrat a 123Survey). Es manté.</desc>
+    <sym>Information</sym>
+    <type>Cartell existent</type>
+  </wpt>
+  <wpt lat="42.238178" lon="2.175445">
+    <name>C04 · existent</name>
+    <desc>Cartell existent (entrat a 123Survey). Es manté.</desc>
+    <sym>Information</sym>
+    <type>Cartell existent</type>
+  </wpt>
+  <wpt lat="42.244845" lon="2.18781">
+    <name>C05 · existent</name>
+    <desc>Cartell existent (entrat a 123Survey). Es manté.</desc>
+    <sym>Information</sym>
+    <type>Cartell existent</type>
+  </wpt>
+  <wpt lat="42.24662" lon="2.193883">
+    <name>C06 · existent</name>
+    <desc>Cartell existent (entrat a 123Survey). Es manté.</desc>
+    <sym>Information</sym>
+    <type>Cartell existent</type>
+  </wpt>
+  <wpt lat="42.246637" lon="2.193913">
+    <name>C07 · existent</name>
+    <desc>Cartell existent (entrat a 123Survey). Es manté.</desc>
+    <sym>Information</sym>
+    <type>Cartell existent</type>
+  </wpt>
+  <wpt lat="42.248612" lon="2.193662">
+    <name>C08 · existent</name>
+    <desc>Cartell existent (entrat a 123Survey). Es manté.</desc>
+    <sym>Information</sym>
+    <type>Cartell existent</type>
+  </wpt>
+  <wpt lat="42.252972" lon="2.195802">
+    <name>C09 · existent</name>
+    <desc>Cartell existent (entrat a 123Survey). Es manté.</desc>
+    <sym>Information</sym>
+    <type>Cartell existent</type>
+  </wpt>
+  <wpt lat="42.256264" lon="2.193537">
+    <name>C10 · existent</name>
+    <desc>Cartell existent (entrat a 123Survey). Es manté.</desc>
+    <sym>Information</sym>
+    <type>Cartell existent</type>
+  </wpt>
+  <wpt lat="42.25644" lon="2.193724">
+    <name>C11 · existent</name>
+    <desc>Cartell existent (entrat a 123Survey). Es manté.</desc>
+    <sym>Information</sym>
+    <type>Cartell existent</type>
+  </wpt>
+  <wpt lat="42.256387" lon="2.192137">
+    <name>C12 · existent</name>
+    <desc>Cartell existent (entrat a 123Survey). Es manté.</desc>
+    <sym>Information</sym>
+    <type>Cartell existent</type>
+  </wpt>
+  <wpt lat="42.256387" lon="2.192135">
+    <name>C13 · existent</name>
+    <desc>Cartell existent (entrat a 123Survey). Es manté.</desc>
+    <sym>Information</sym>
+    <type>Cartell existent</type>
+  </wpt>
+  <wpt lat="42.252138" lon="2.193937">
+    <name>C14 · existent</name>
+    <desc>Cartell existent (entrat a 123Survey). Es manté.</desc>
+    <sym>Information</sym>
+    <type>Cartell existent</type>
+  </wpt>
+  <wpt lat="42.253128" lon="2.184545">
+    <name>C15 · existent</name>
+    <desc>Cartell existent (entrat a 123Survey). Es manté.</desc>
+    <sym>Information</sym>
+    <type>Cartell existent</type>
+  </wpt>
+  <wpt lat="42.250222" lon="2.175442">
+    <name>C16 · existent</name>
+    <desc>Cartell existent (entrat a 123Survey). Es manté.</desc>
+    <sym>Information</sym>
+    <type>Cartell existent</type>
+  </wpt>
+  <wpt lat="42.249645" lon="2.175005">
+    <name>C17 · existent</name>
+    <desc>Cartell existent (entrat a 123Survey). Es manté.</desc>
+    <sym>Information</sym>
+    <type>Cartell existent</type>
+  </wpt>
+  <wpt lat="42.2441" lon="2.17586">
+    <name>C18 · existent</name>
+    <desc>Cartell existent (entrat a 123Survey). Es manté.</desc>
+    <sym>Information</sym>
+    <type>Cartell existent</type>
+  </wpt>
+  <wpt lat="42.234967" lon="2.168135">
+    <name>C19 · existent</name>
+    <desc>Cartell existent (entrat a 123Survey). Es manté.</desc>
+    <sym>Information</sym>
+    <type>Cartell existent</type>
+  </wpt>
+</gpx>

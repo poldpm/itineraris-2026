@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2"><Document>
+<name>Itinerari de Sant Julià de Saltor · cartells entrats a 123Survey</name>
+<Style id="trk"><LineStyle><color>ff766e0f</color><width>4</width></LineStyle></Style>
+<Style id="t08"><LineStyle><color>ffed3a7c</color><width>3</width></LineStyle></Style>
+<Style id="alta"><IconStyle><color>ff1823b4</color></IconStyle></Style>
+<Style id="mant"><IconStyle><color>ff0747b5</color></IconStyle></Style>
+<Style id="rec"><IconStyle><color>ff7a5a1f</color></IconStyle></Style>
+<Style id="info"><IconStyle><color>ff606b5b</color></IconStyle></Style>
+<Placemark><name>C01</name><description>Cartell entrat a 123Survey</description><styleUrl>#info</styleUrl><Point><coordinates>2.1683020,42.2347030</coordinates></Point></Placemark>
+<Placemark><name>C02</name><description>Cartell entrat a 123Survey</description><styleUrl>#info</styleUrl><Point><coordinates>2.1682980,42.2347000</coordinates></Point></Placemark>
+<Placemark><name>C03</name><description>Cartell entrat a 123Survey</description><styleUrl>#info</styleUrl><Point><coordinates>2.1746820,42.2378220</coordinates></Point></Placemark>
+<Placemark><name>C04</name><description>Cartell entrat a 123Survey</description><styleUrl>#info</styleUrl><Point><coordinates>2.1754450,42.2381780</coordinates></Point></Placemark>
+<Placemark><name>C05</name><description>Cartell entrat a 123Survey</description><styleUrl>#info</styleUrl><Point><coordinates>2.1878100,42.2448450</coordinates></Point></Placemark>
+<Placemark><name>C06</name><description>Cartell entrat a 123Survey</description><styleUrl>#info</styleUrl><Point><coordinates>2.1938830,42.2466200</coordinates></Point></Placemark>
+<Placemark><name>C07</name><description>Cartell entrat a 123Survey</description><styleUrl>#info</styleUrl><Point><coordinates>2.1939130,42.2466370</coordinates></Point></Placemark>
+<Placemark><name>C08</name><description>Cartell entrat a 123Survey</description><styleUrl>#info</styleUrl><Point><coordinates>2.1936620,42.2486120</coordinates></Point></Placemark>
+<Placemark><name>C09</name><description>Cartell entrat a 123Survey</description><styleUrl>#info</styleUrl><Point><coordinates>2.1958020,42.2529720</coordinates></Point></Placemark>
+<Placemark><name>C10</name><description>Cartell entrat a 123Survey</description><styleUrl>#info</styleUrl><Point><coordinates>2.1935370,42.2562640</coordinates></Point></Placemark>
+<Placemark><name>C11</name><description>Cartell entrat a 123Survey</description><styleUrl>#info</styleUrl><Point><coordinates>2.1937240,42.2564400</coordinates></Point></Placemark>
+<Placemark><name>C12</name><description>Cartell entrat a 123Survey</description><styleUrl>#info</styleUrl><Point><coordinates>2.1921370,42.2563870</coordinates></Point></Placemark>
+<Placemark><name>C13</name><description>Cartell entrat a 123Survey</description><styleUrl>#info</styleUrl><Point><coordinates>2.1921350,42.2563870</coordinates></Point></Placemark>
+<Placemark><name>C14</name><description>Cartell entrat a 123Survey</description><styleUrl>#info</styleUrl><Point><coordinates>2.1939370,42.2521380</coordinates></Point></Placemark>
+<Placemark><name>C15</name><description>Cartell entrat a 123Survey</description><styleUrl>#info</styleUrl><Point><coordinates>2.1845450,42.2531280</coordinates></Point></Placemark>
+<Placemark><name>C16</name><description>Cartell entrat a 123Survey</description><styleUrl>#info</styleUrl><Point><coordinates>2.1754420,42.2502220</coordinates></Point></Placemark>
+<Placemark><name>C17</name><description>Cartell entrat a 123Survey</description><styleUrl>#info</styleUrl><Point><coordinates>2.1750050,42.2496450</coordinates></Point></Placemark>
+<Placemark><name>C18</name><description>Cartell entrat a 123Survey</description><styleUrl>#info</styleUrl><Point><coordinates>2.1758600,42.2441000</coordinates></Point></Placemark>
+<Placemark><name>C19</name><description>Cartell entrat a 123Survey</description><styleUrl>#info</styleUrl><Point><coordinates>2.1681350,42.2349670</coordinates></Point></Placemark>
+</Document></kml>
