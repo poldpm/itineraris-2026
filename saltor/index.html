@@ -872,7 +872,7 @@ section.sec{padding:var(--s8) 0;border-bottom:1px solid var(--line)}
 @media (min-width:900px){.card-imgs img{height:100%;min-height:200px;max-height:340px}}
 .card-imgs .cap{position:absolute;left:8px;bottom:8px;font:500 12px var(--sans);color:#fff;background:rgba(27,36,32,.75);padding:3px 6px;border-radius:3px}
 .card.tram{border-left:5px solid var(--alta)} .card.tram.ok{border-left-color:var(--ok)} .card.tram.mitjana{border-left-color:var(--mitjana)}
-.mq{display:grid;grid-template-columns:repeat(2,1fr);gap:8px;margin-top:var(--s4)}.mq button{all:unset;cursor:zoom-in;position:relative;display:block}.mq img{display:block;width:100%;height:180px;object-fit:cover;border-radius:4px}.mq .cap{position:absolute;left:8px;bottom:8px;font:500 12px var(--sans);color:#fff;background:rgba(27,36,32,.75);padding:3px 6px;border-radius:3px}
+.mq{display:grid;grid-template-columns:repeat(2,minmax(0,280px));gap:8px;margin-top:var(--s4)}.mq button{all:unset;cursor:zoom-in;position:relative;display:block}.mq img{display:block;width:100%;height:180px;object-fit:cover;border-radius:4px}.mq .cap{position:absolute;left:8px;bottom:8px;font:500 12px var(--sans);color:#fff;background:rgba(27,36,32,.75);padding:3px 6px;border-radius:3px}
 /* comparativa */
 .cmp{display:grid;gap:var(--s5);grid-template-columns:1fr}
 @media (min-width:900px){.cmp{grid-template-columns:repeat(3,1fr)}}
@@ -972,6 +972,7 @@ dialog button{all:unset;cursor:pointer;color:#fff;font:500 14px var(--sans);padd
         </div>
       </div>
       <ol class="concl" id="concl"></ol>
+      <div class="callout" style="margin-top:24px"><b>Criteri de la revisió.</b> Totes les observacions i propostes es fan pensant en una persona que no coneix gens la ruta i que només sap seguir les línies grogues, sense GPS i sense nocions de muntanya. Hi ha usuaris que no segueixen el camí i busquen dreceres; per això les propostes busquen que l'itinerari sigui el més visual i accessible possible.</div>
     </div>
   </section>
 
@@ -1029,15 +1030,12 @@ dialog button{all:unset;cursor:pointer;color:#fff;font:500 14px var(--sans);padd
         <div class="legend" style="padding:8px 8px 0"><span><i class="sw" style="background:var(--alta);opacity:.5;height:10px"></i>Tram a arreglar</span><span><i class="sw" style="background:var(--ok);opacity:.5;height:10px"></i>Tram ben senyalitzat</span></div>
       </div>
       <div class="patterns">
-        <div class="pat">
+        <div class="pat" style="grid-column:1/-1">
           <h3>Marques que poden confondre</h3>
           <p class="muted">Al llarg de gairebé tota la ruta, sobretot a la part alta, a més de les línies grogues de l'itinerari i de les marques blanques i vermelles del GR, hi ha marques de triangle groc i de línia vermella. No indiquen de quin camí són ni cap on porten, i poden crear confusió.</p>
           <div class="mq" id="mq"></div>
         </div>
-        <div class="pat">
-          <h3>Com s'han fet les recomanacions</h3>
-          <p class="muted">Les observacions es fan pensant en una persona que no coneix gens la ruta i que només sap seguir les línies grogues, sense GPS i sense nocions de muntanya. Hi ha usuaris que no segueixen el camí i busquen dreceres; per això, a més de les incidències reals, es recullen recomanacions per fer l'itinerari el més visual i accessible possible.</p>
-        </div>
+
       </div>
     </div>
   </section>
