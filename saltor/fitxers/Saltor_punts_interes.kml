@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2"><Document>
+<name>Itinerari de Sant Julià de Saltor · punts d’interès</name>
+<Placemark><name>P01 Fontetes de Sant Grau</name><description>Font · km 0.70</description><Point><coordinates>2.174495,42.237870</coordinates></Point></Placemark>
+<Placemark><name>P02 Collet de Capdevila</name><description>Coll · km 1.61</description><Point><coordinates>2.181118,42.242239</coordinates></Point></Placemark>
+<Placemark><name>P03 Font de Sant Martí</name><description>Font · km 2.34</description><Point><coordinates>2.186980,42.245170</coordinates></Point></Placemark>
+<Placemark><name>P04 Coll de Graus</name><description>Coll · km 3.25</description><Point><coordinates>2.193914,42.246788</coordinates></Point></Placemark>
+<Placemark><name>P05 Bassa</name><description>Punt d’aigua · km 4.46</description><Point><coordinates>2.194374,42.255833</coordinates></Point></Placemark>
+<Placemark><name>P06 Església de Sant Julià de Saltor</name><description>Patrimoni · km 4.47</description><Point><coordinates>2.194882,42.256111</coordinates></Point></Placemark>
+<Placemark><name>P07 Saltor</name><description>Mas · km 4.54</description><Point><coordinates>2.193963,42.256292</coordinates></Point></Placemark>
+<Placemark><name>P08 Coll de Saltor</name><description>Coll · km 4.72</description><Point><coordinates>2.192157,42.256429</coordinates></Point></Placemark>
+<Placemark><name>P09 Font de Corones</name><description>Font · km 7.34</description><Point><coordinates>2.180070,42.250300</coordinates></Point></Placemark>
+<Placemark><name>P10 Corones</name><description>Mas · km 7.39</description><Point><coordinates>2.179747,42.250854</coordinates></Point></Placemark>
+<Placemark><name>P11 Pas del Cargol</name><description>Pas · km 7.89</description><Point><coordinates>2.175605,42.250139</coordinates></Point></Placemark>
+<Placemark><name>P12 Ermita de Sant Grau</name><description>Patrimoni · km 10.31</description><Point><coordinates>2.173995,42.241415</coordinates></Point></Placemark>
+</Document></kml>

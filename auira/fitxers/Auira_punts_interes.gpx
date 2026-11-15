@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="Revisió de camp 2026 · Itinerari de Sant Pere d'Aüira">
+  <metadata>
+    <name>Itinerari de Sant Pere d'Aüira · punts d’interès</name>
+  </metadata>
+  <wpt lat="42.22441" lon="2.16689">
+    <name>P01 Església parroquial de Sant Cristòfol</name>
+    <desc>Patrimoni · km 0,01</desc>
+    <sym>Scenic Area</sym>
+    <type>Patrimoni</type>
+  </wpt>
+  <wpt lat="42.251609" lon="2.158996">
+    <name>P02 Pla de la Tomba</name>
+    <desc>Mirador · km 5,30</desc>
+    <sym>Scenic Area</sym>
+    <type>Mirador</type>
+  </wpt>
+  <wpt lat="42.24692" lon="2.145969">
+    <name>P03 Ermita de Sant Pere d'Aüira</name>
+    <desc>Patrimoni · km 6,87</desc>
+    <sym>Scenic Area</sym>
+    <type>Patrimoni</type>
+  </wpt>
+  <wpt lat="42.242062" lon="2.146639">
+    <name>P04 Coll de la Batalla</name>
+    <desc>Coll · km 7,62</desc>
+    <sym>Scenic Area</sym>
+    <type>Coll</type>
+  </wpt>
+  <wpt lat="42.235409" lon="2.15722">
+    <name>P05 Cal Xandri</name>
+    <desc>Mas · km 9,01</desc>
+    <sym>Scenic Area</sym>
+    <type>Mas</type>
+  </wpt>
+  <wpt lat="42.232475" lon="2.159951">
+    <name>P06 Collet de Puigcorber</name>
+    <desc>Coll · km 9,42</desc>
+    <sym>Scenic Area</sym>
+    <type>Coll</type>
+  </wpt>
+  <wpt lat="42.22606" lon="2.16363">
+    <name>P07 Sant Cristòfol, antiga parròquia</name>
+    <desc>Patrimoni · km 10,29</desc>
+    <sym>Scenic Area</sym>
+    <type>Patrimoni</type>
+  </wpt>
+</gpx>

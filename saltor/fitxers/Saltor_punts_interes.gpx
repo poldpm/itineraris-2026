@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="Revisió de camp 2026 · Itinerari de Sant Julià de Saltor">
+  <metadata>
+    <name>Itinerari de Sant Julià de Saltor · punts d’interès</name>
+  </metadata>
+  <wpt lat="42.23787" lon="2.174495">
+    <name>P01 Fontetes de Sant Grau</name>
+    <desc>Font · km 0,70</desc>
+    <sym>Drinking Water</sym>
+    <type>Font</type>
+  </wpt>
+  <wpt lat="42.242239" lon="2.181118">
+    <name>P02 Collet de Capdevila</name>
+    <desc>Coll · km 1,61</desc>
+    <sym>Scenic Area</sym>
+    <type>Coll</type>
+  </wpt>
+  <wpt lat="42.24517" lon="2.18698">
+    <name>P03 Font de Sant Martí</name>
+    <desc>Font · km 2,34</desc>
+    <sym>Drinking Water</sym>
+    <type>Font</type>
+  </wpt>
+  <wpt lat="42.246788" lon="2.193914">
+    <name>P04 Coll de Graus</name>
+    <desc>Coll · km 3,25</desc>
+    <sym>Scenic Area</sym>
+    <type>Coll</type>
+  </wpt>
+  <wpt lat="42.255833" lon="2.194374">
+    <name>P05 Bassa</name>
+    <desc>Punt d’aigua · km 4,46</desc>
+    <sym>Drinking Water</sym>
+    <type>Punt d’aigua</type>
+  </wpt>
+  <wpt lat="42.256111" lon="2.194882">
+    <name>P06 Església de Sant Julià de Saltor</name>
+    <desc>Patrimoni · km 4,47</desc>
+    <sym>Scenic Area</sym>
+    <type>Patrimoni</type>
+  </wpt>
+  <wpt lat="42.256292" lon="2.193963">
+    <name>P07 Saltor</name>
+    <desc>Mas · km 4,54</desc>
+    <sym>Scenic Area</sym>
+    <type>Mas</type>
+  </wpt>
+  <wpt lat="42.256429" lon="2.192157">
+    <name>P08 Coll de Saltor</name>
+    <desc>Coll · km 4,72</desc>
+    <sym>Scenic Area</sym>
+    <type>Coll</type>
+  </wpt>
+  <wpt lat="42.2503" lon="2.18007">
+    <name>P09 Font de Corones</name>
+    <desc>Font · km 7,34</desc>
+    <sym>Drinking Water</sym>
+    <type>Font</type>
+  </wpt>
+  <wpt lat="42.250854" lon="2.179747">
+    <name>P10 Corones</name>
+    <desc>Mas · km 7,39</desc>
+    <sym>Scenic Area</sym>
+    <type>Mas</type>
+  </wpt>
+  <wpt lat="42.250139" lon="2.175605">
+    <name>P11 Pas del Cargol</name>
+    <desc>Pas · km 7,89</desc>
+    <sym>Scenic Area</sym>
+    <type>Pas</type>
+  </wpt>
+  <wpt lat="42.241415" lon="2.173995">
+    <name>P12 Ermita de Sant Grau</name>
+    <desc>Patrimoni · km 10,31</desc>
+    <sym>Scenic Area</sym>
+    <type>Patrimoni</type>
+  </wpt>
+</gpx>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2"><Document>
+<name>Itinerari de Sant Pere d&#x27;Aüira · punts d’interès</name>
+<Placemark><name>P01 Església parroquial de Sant Cristòfol</name><description>Patrimoni · km 0.01</description><Point><coordinates>2.166890,42.224410</coordinates></Point></Placemark>
+<Placemark><name>P02 Pla de la Tomba</name><description>Mirador · km 5.30</description><Point><coordinates>2.158996,42.251609</coordinates></Point></Placemark>
+<Placemark><name>P03 Ermita de Sant Pere d&#x27;Aüira</name><description>Patrimoni · km 6.87</description><Point><coordinates>2.145969,42.246920</coordinates></Point></Placemark>
+<Placemark><name>P04 Coll de la Batalla</name><description>Coll · km 7.62</description><Point><coordinates>2.146639,42.242062</coordinates></Point></Placemark>
+<Placemark><name>P05 Cal Xandri</name><description>Mas · km 9.01</description><Point><coordinates>2.157220,42.235409</coordinates></Point></Placemark>
+<Placemark><name>P06 Collet de Puigcorber</name><description>Coll · km 9.42</description><Point><coordinates>2.159951,42.232475</coordinates></Point></Placemark>
+<Placemark><name>P07 Sant Cristòfol, antiga parròquia</name><description>Patrimoni · km 10.29</description><Point><coordinates>2.163630,42.226060</coordinates></Point></Placemark>
+</Document></kml>
