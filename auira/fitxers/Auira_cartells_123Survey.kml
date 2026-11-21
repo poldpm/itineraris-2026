@@ -1,22 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <kml xmlns="http://www.opengis.net/kml/2.2"><Document>
 <name>Itinerari de Sant Pere d&#x27;Aüira · cartells entrats a 123Survey</name>
-<Style id="trk"><LineStyle><color>ff766e0f</color><width>4</width></LineStyle></Style>
-<Style id="t08"><LineStyle><color>ffed3a7c</color><width>3</width></LineStyle></Style>
-<Style id="alta"><IconStyle><color>ff1823b4</color></IconStyle></Style>
-<Style id="mitjana"><IconStyle><color>ff0747b5</color></IconStyle></Style>
-<Style id="baixa"><IconStyle><color>ff0c8aca</color></IconStyle></Style>
-<Style id="info"><IconStyle><color>ff606b5b</color></IconStyle></Style>
-<Placemark><name>C01</name><description>Cartell entrat a 123Survey</description><styleUrl>#info</styleUrl><Point><coordinates>2.1668770,42.2246170</coordinates></Point></Placemark>
-<Placemark><name>C02</name><description>Cartell entrat a 123Survey</description><styleUrl>#info</styleUrl><Point><coordinates>2.1667330,42.2246830</coordinates></Point></Placemark>
-<Placemark><name>C03</name><description>Cartell entrat a 123Survey</description><styleUrl>#info</styleUrl><Point><coordinates>2.1647370,42.2313180</coordinates></Point></Placemark>
-<Placemark><name>C04</name><description>Cartell entrat a 123Survey</description><styleUrl>#info</styleUrl><Point><coordinates>2.1625170,42.2416120</coordinates></Point></Placemark>
-<Placemark><name>C05</name><description>Cartell entrat a 123Survey</description><styleUrl>#info</styleUrl><Point><coordinates>2.1577300,42.2501370</coordinates></Point></Placemark>
-<Placemark><name>C06</name><description>Cartell entrat a 123Survey</description><styleUrl>#info</styleUrl><Point><coordinates>2.1450980,42.2476070</coordinates></Point></Placemark>
-<Placemark><name>C07</name><description>Cartell entrat a 123Survey</description><styleUrl>#info</styleUrl><Point><coordinates>2.1453970,42.2473370</coordinates></Point></Placemark>
-<Placemark><name>C08</name><description>Cartell entrat a 123Survey</description><styleUrl>#info</styleUrl><Point><coordinates>2.1621570,42.2284320</coordinates></Point></Placemark>
-<Placemark><name>C09</name><description>Cartell entrat a 123Survey</description><styleUrl>#info</styleUrl><Point><coordinates>2.1636120,42.2258570</coordinates></Point></Placemark>
-<Placemark><name>C10</name><description>Cartell entrat a 123Survey</description><styleUrl>#info</styleUrl><Point><coordinates>2.1635580,42.2251970</coordinates></Point></Placemark>
-<Placemark><name>C11</name><description>Cartell entrat a 123Survey</description><styleUrl>#info</styleUrl><Point><coordinates>2.1631170,42.2252820</coordinates></Point></Placemark>
-<Placemark><name>C12</name><description>Cartell entrat a 123Survey</description><styleUrl>#info</styleUrl><Point><coordinates>2.1618550,42.2256920</coordinates></Point></Placemark>
+<Style id="trk"><LineStyle><color>ffd84e1d</color><width>4</width></LineStyle></Style>
+<Placemark><name>C01</name><description>Cartell entrat a 123Survey</description><Point><coordinates>2.1668770,42.2246170</coordinates></Point></Placemark>
+<Placemark><name>C02</name><description>Cartell entrat a 123Survey</description><Point><coordinates>2.1667330,42.2246830</coordinates></Point></Placemark>
+<Placemark><name>C03</name><description>Cartell entrat a 123Survey</description><Point><coordinates>2.1647370,42.2313180</coordinates></Point></Placemark>
+<Placemark><name>C04</name><description>Cartell entrat a 123Survey</description><Point><coordinates>2.1625170,42.2416120</coordinates></Point></Placemark>
+<Placemark><name>C05</name><description>Cartell entrat a 123Survey</description><Point><coordinates>2.1577300,42.2501370</coordinates></Point></Placemark>
+<Placemark><name>C06</name><description>Cartell entrat a 123Survey</description><Point><coordinates>2.1450980,42.2476070</coordinates></Point></Placemark>
+<Placemark><name>C07</name><description>Cartell entrat a 123Survey</description><Point><coordinates>2.1453970,42.2473370</coordinates></Point></Placemark>
+<Placemark><name>C08</name><description>Cartell entrat a 123Survey</description><Point><coordinates>2.1621570,42.2284320</coordinates></Point></Placemark>
+<Placemark><name>C09</name><description>Cartell entrat a 123Survey</description><Point><coordinates>2.1636120,42.2258570</coordinates></Point></Placemark>
+<Placemark><name>C10</name><description>Cartell entrat a 123Survey</description><Point><coordinates>2.1635580,42.2251970</coordinates></Point></Placemark>
+<Placemark><name>C11</name><description>Cartell entrat a 123Survey</description><Point><coordinates>2.1631170,42.2252820</coordinates></Point></Placemark>
+<Placemark><name>C12</name><description>Cartell entrat a 123Survey</description><Point><coordinates>2.1618550,42.2256920</coordinates></Point></Placemark>
+<Placemark><name>C13 (ruta B)</name><description>Ruta B · Cartell entrat a 123Survey</description><Point><coordinates>2.1547930,42.2301950</coordinates></Point></Placemark>
+<Placemark><name>C14 (ruta B)</name><description>Ruta B · Cartell entrat a 123Survey</description><Point><coordinates>2.1547530,42.2301870</coordinates></Point></Placemark>
+<Placemark><name>C15 (ruta B)</name><description>Ruta B · Cartell entrat a 123Survey</description><Point><coordinates>2.1547530,42.2301870</coordinates></Point></Placemark>
 </Document></kml>

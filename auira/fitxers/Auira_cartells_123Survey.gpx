@@ -64,4 +64,19 @@
     <desc>Cartell entrat a 123Survey</desc>
     <sym>Information</sym>
   </wpt>
+  <wpt lat="42.230195" lon="2.154793">
+    <name>C13 (ruta B)</name>
+    <desc>Ruta B · Cartell entrat a 123Survey</desc>
+    <sym>Information</sym>
+  </wpt>
+  <wpt lat="42.230187" lon="2.154753">
+    <name>C14 (ruta B)</name>
+    <desc>Ruta B · Cartell entrat a 123Survey</desc>
+    <sym>Information</sym>
+  </wpt>
+  <wpt lat="42.230187" lon="2.154753">
+    <name>C15 (ruta B)</name>
+    <desc>Ruta B · Cartell entrat a 123Survey</desc>
+    <sym>Information</sym>
+  </wpt>
 </gpx>

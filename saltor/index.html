@@ -811,6 +811,16 @@ section.sec{padding:var(--s8) 0;border-bottom:1px solid var(--line)}
 .poi-list .pid{font:600 12px var(--sans);color:#0A5049}.poi-list .pt{display:block;font-size:13px;color:var(--ink-3)}.poi-list .pk{font-size:14px;color:var(--ink-2);white-space:nowrap}
 .poi-list button{all:unset;cursor:pointer;font-weight:500;color:var(--ink);border-bottom:1px solid var(--line)}.poi-list button:hover{color:var(--trk)}
 .lf-poi{position:relative;width:0;height:0}.lf-poi i{position:absolute;left:-7px;top:-7px;width:14px;height:14px;background:#fff;border:3px solid #0A5049;border-radius:50%;box-shadow:0 1px 3px rgba(0,0,0,.35)}.lf-poi span{position:absolute;left:10px;top:-8px;font:600 11px/1 var(--sans);color:#0A5049;background:rgba(255,255,255,.92);padding:2px 4px;border-radius:3px;white-space:nowrap}
+.rutes{display:grid;gap:var(--s4);grid-template-columns:1fr;margin:0 0 var(--s6)}
+@media (min-width:768px){.rutes{grid-template-columns:1fr 1fr}}
+.ruta{background:var(--card);border:1px solid var(--line);border-radius:var(--r);padding:var(--s5);border-top:6px solid var(--trk)}
+.ruta.b{border-top-color:#1D4ED8}
+.ruta h3{margin:var(--s2) 0 var(--s3)} .ruta p{font-size:15.5px;color:var(--ink-2)}
+.ruta dl{display:flex;flex-wrap:wrap;gap:var(--s3) var(--s5);margin:var(--s4) 0 0}.ruta dl div{display:flex;flex-direction:column-reverse}
+.ruta dt{font-size:12.5px;color:var(--ink-3)}.ruta dd{margin:0;font:600 22px/1.1 var(--serif)}
+.grp{margin:var(--s7) 0 var(--s4);padding-top:var(--s5);border-top:2px solid #1D4ED8}
+.grp h3{font-size:26px}.grp p{color:var(--ink-2);max-width:68ch;margin-top:var(--s2)}
+.b-rb{background:#E3EAFB;color:#1D4ED8}
 /* datum */
 .two{display:grid;gap:var(--s6);grid-template-columns:1fr}
 @media (min-width:900px){.two{grid-template-columns:1.1fr .9fr;align-items:start}}
@@ -970,6 +980,7 @@ dialog button{all:unset;cursor:pointer;color:#fff;font:500 14px var(--sans);padd
         <p class="lead">Marques grogues noves, ben fetes i situades on toca. L'únic tram que cal arreglar és el principi, després del riu. La resta són recomanacions per afinar la senyalització al màxim.</p>
       </div>
       <div class="kpis" id="kpis"></div>
+      <div class="rutes" id="rutes" hidden></div>
       <div class="diag">
         <div class="diag-big">
           <div><div class="pct" id="pct"></div><p class="muted" style="margin-top:8px">de tram a arreglar, a l'inici de la ruta</p></div>
@@ -1059,6 +1070,7 @@ dialog button{all:unset;cursor:pointer;color:#fff;font:500 14px var(--sans);padd
       </div>
       <div class="filters" id="filters" role="group" aria-label="Filtra per tipus"></div>
       <div class="cards" id="cards"></div>
+      <div id="cardsB"></div>
     </div>
   </section>
 
@@ -1176,19 +1188,19 @@ items.forEach(i=>{const c=COL[i.prioritat]||COL.info;
   markers[i.id]=L.marker([i.lat,i.lon],{icon:L.divIcon({className:'',html:`<div class="lf-pinw"><i style="background:${c}"></i><span class="lf-pin" style="background:${c}">${i.id}</span></div>`,iconSize:[0,0],iconAnchor:[0,0]}),zIndexOffset:i.prioritat==='alta'?600:(i.prioritat==='mant'?450:300)})
    .bindPopup(popup(i),{maxWidth:280}).addTo(gInc)});
 D.trams.forEach(t=>{markers[t.id]={openPopup(){L.popup({maxWidth:280}).setLatLng([t.lat,t.lon]).setContent(popup(t)).openOn(map)},getLatLng(){return L.latLng(t.lat,t.lon)}}});
-D.cartells.forEach((c,k)=>{const near=(a,b)=>a&&b&&Math.hypot(a.lat-b.lat,(a.lon-b.lon)*0.74)<0.0012;let flip=false;if(near(D.cartells[k-1],c)){let n=0,q=k;while(q>0&&near(D.cartells[q-1],D.cartells[q])){n++;q--}flip=n%2===1}L.marker([c.lat,c.lon],{zIndexOffset:900,icon:L.divIcon({className:'',html:`<div class="lf-carw${flip?' l':''}"><i></i><span class="lf-car">${c.id}</span></div>`,iconSize:[0,0],iconAnchor:[0,0]})}).bindPopup(`<b>${c.id}</b> · Cartell entrat a 123Survey<br><span class="muted">km ${fmt(c.km)}</span>`).addTo(gCar)});
+D.cartells.forEach((c,k)=>{const near=(a,b)=>a&&b&&Math.hypot(a.lat-b.lat,(a.lon-b.lon)*0.74)<0.0012;let flip=false;if(near(D.cartells[k-1],c)){let n=0,q=k;while(q>0&&near(D.cartells[q-1],D.cartells[q])){n++;q--}flip=n%2===1}L.marker([c.lat,c.lon],{zIndexOffset:900,icon:L.divIcon({className:'',html:`<div class="lf-carw${flip?' l':''}"><i></i><span class="lf-car">${c.id}</span></div>`,iconSize:[0,0],iconAnchor:[0,0]})}).bindPopup(`<b>${c.id}</b> · Cartell entrat a 123Survey<br><span class="muted">${c.ruta?'Ruta '+c.ruta+' · ':''}km ${fmt(c.km)}</span>`).addTo(gCar)});
 const gProp=L.layerGroup().addTo(map);
 D.proposta.forEach(p=>{const isP=p.tipus==='plafo';
  L.marker([p.lat,p.lon],{zIndexOffset:950,icon:L.divIcon({className:'',html:`<div class="lf-propw${isP?' p':''}"><i></i><span>${isP?p.id:'B'}</span></div>`,iconSize:[0,0],iconAnchor:[0,0]})})
-  .bindPopup(`<b>${esc(p.nom)}</b><br><span class="muted">Proposta · km ${fmt(p.km)}</span><div style="margin-top:6px">${esc(p.desc)}</div>`,{maxWidth:280}).addTo(gProp)});
+  .bindPopup(`<b>${esc(p.nom)}</b><br><span class="muted">Proposta · ${p.ruta?'ruta '+p.ruta+' · ':''}km ${fmt(p.km)}</span><div style="margin-top:6px">${esc(p.desc)}</div>`,{maxWidth:280}).addTo(gProp)});
 const gPoi=L.layerGroup().addTo(map);
 (D.poi||[]).forEach(p=>{markers[p.id]=L.marker([p.lat,p.lon],{zIndexOffset:800,icon:L.divIcon({className:'',html:`<div class="lf-poi"><i></i><span>${esc(p.nom)}</span></div>`,iconSize:[0,0],iconAnchor:[0,0]})})
-  .bindPopup(`<b>${esc(p.nom)}</b><br><span class="muted">${esc(p.tipus)} · km ${fmt(p.km)}</span>`).addTo(gPoi)});
-$('#poi').innerHTML=(D.poi||[]).map(p=>`<li><span class="pid">${p.id}</span><span><button type="button" data-go="${p.id}">${esc(p.nom)}</button><span class="pt">${esc(p.tipus)}</span></span><span class="pk">km ${fmt(p.km)}</span></li>`).join('');
+  .bindPopup(`<b>${esc(p.nom)}</b><br><span class="muted">${esc(p.tipus)}${p.ruta?' · ruta '+p.ruta:''} · km ${fmt(p.km)}</span>`).addTo(gPoi)});
+$('#poi').innerHTML=(D.poi||[]).map(p=>`<li><span class="pid">${p.id}</span><span><button type="button" data-go="${p.id}">${esc(p.nom)}</button><span class="pt">${esc(p.tipus)}${p.ruta?' · ruta '+p.ruta:''}</span></span><span class="pk">km ${fmt(p.km)}</span></li>`).join('');
 const camSvg='<svg viewBox="0 0 24 24"><path d="M9 4l-1.8 2H4a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V8a2 2 0 0 0-2-2h-3.2L15 4H9zm3 5a4 4 0 1 1 0 8 4 4 0 0 1 0-8z"/></svg>';
 items.filter(i=>i.fotos&&i.fotos.length).forEach(i=>i.fotos.forEach((f,k)=>{const o=k*0.00006;
   L.marker([i.lat+o,i.lon+0.00012],{icon:L.divIcon({className:'',html:`<span class="lf-foto">${camSvg}</span>`,iconSize:[24,24],iconAnchor:[12,12]})}).on('click',()=>openPhoto(f,i)).addTo(gFot)}));
-L.control.layers({'Topogràfic ICGC':topo,'Ortofoto ICGC':orto,'OpenStreetMap':osm},
+const ctl=L.control.layers({'Topogràfic ICGC':topo,'Ortofoto ICGC':orto,'OpenStreetMap':osm},
   {'Recorregut 2026':gTrk,'Trams (estat de la senyalització)':gTrams,'Incidències i observacions':gInc,'Punts d\'interès':gPoi,'Cartells 123Survey':gCar,'Senyalització proposada':gProp,'Fotografies':gFot,'Track 2008 al mòbil':gRaw,'Track 2008 corregit':gCor,'Quilòmetres':kmLayer},{collapsed:window.innerWidth<768}).addTo(map);
 L.control.scale({imperial:false}).addTo(map);
 function showOnMap(id){const m=markers[id]; if(!m)return; $('#mapa').scrollIntoView({behavior:'smooth'}); setTimeout(()=>{map.setView(m.getLatLng(),17); m.openPopup()},350)}
@@ -1270,6 +1282,27 @@ const kb=n=>n>1e6?fmt(n/1e6,1)+' MB':Math.max(1,Math.round(n/1024))+' kB';
 $('#dl').innerHTML=DL.map(([f,t,p])=>{const g=D.desc[f+'.gpx'],k=D.desc[f+'.kml'];
  return `<div class="dl-item"><h3>${t}</h3><p>${p}</p><div class="dl-btns"><a class="btn" href="${g.url}" download>GPX · ${kb(g.mida)}</a><a class="btn alt" href="${k.url}" download>KML · ${kb(k.mida)}</a></div></div>`}).join('');
 $('#dl-all').onclick=async()=>{for(const [n,f] of Object.entries(D.desc)){const a=document.createElement('a');a.href=f.url;a.download=n;document.body.appendChild(a);a.click();a.remove();await new Promise(r=>setTimeout(r,450))}};
+/* ---------- ruta B ---------- */
+if(D.rutaB){const RB=D.rutaB, SB=RB.stats;
+ const gB=L.polyline(RB.track.map(p=>[p[0],p[1]]),{color:'#1D4ED8',weight:4,opacity:.9,dashArray:'1 7',lineCap:'round'}).addTo(map); gB.bringToBack();
+ const rB=RB.track.filter(p=>p[3]>=RB.k_creu&&p[3]<=RB.k_rej).map(p=>[p[0],p[1]]);
+ const gBn=L.polyline(rB,{color:'#1D4ED8',weight:5,opacity:.95}).addTo(map);
+ ctl.addOverlay(L.layerGroup([gB,gBn]),'Ruta B · per Sant Cristòfol la Vella');
+ document.querySelector('.legend').insertAdjacentHTML('afterbegin','<span><i class="sw" style="background:#1D4ED8;height:5px"></i>Ruta B · tram per Sant Cristòfol la Vella</span>');
+ const fm=s=>s.mide.replace(' min','').replace(' h ',' h ')+' min';
+ $('#rutes').hidden=false;
+ $('#rutes').innerHTML=`<div class="ruta"><p class="eyebrow">Ruta A · seguint la línia groga</p><h3>Per Cal Xandri i Puigcorber</h3><p>Recorregut revisat el 14/11/2026 seguint la senyalització existent. Acaba al cartell d'itinerari de l'aparcament.</p><dl><div><dt>km</dt><dd>${fmt(KM,1)}</dd></div><div><dt>desnivell</dt><dd>+${S.desnivell_pos} m</dd></div><div><dt>temps MIDE</dt><dd>${S.mide}</dd></div></dl></div>
+ <div class="ruta b"><p class="eyebrow">Ruta B · per Sant Cristòfol la Vella</p><h3>De l'església a l'església</h3><p>Segueix la ruta A fins a la creu groga (km ${fmt(RB.k_creu)}) i baixa per les ruïnes de Sant Cristòfol la Vella fins a l'església. Revisada el 21/11/2026. El tram nou, de ${fmt(RB.k_rej-RB.k_creu,1)} km, no està senyalitzat.</p><dl><div><dt>km</dt><dd>${fmt(SB.distancia_km,1)}</dd></div><div><dt>desnivell</dt><dd>+${SB.desnivell_pos} m</dd></div><div><dt>temps MIDE</dt><dd>${SB.mide}</dd></div></dl></div>`;
+ const itB=RB.items, trB=RB.trams;
+ itB.forEach(i=>{byId[i.id]=i;const c=COL[i.prioritat]||COL.info;
+  markers[i.id]=L.marker([i.lat,i.lon],{icon:L.divIcon({className:'',html:`<div class="lf-pinw"><i style="background:${c}"></i><span class="lf-pin" style="background:${c}">${i.id}</span></div>`,iconSize:[0,0],iconAnchor:[0,0]}),zIndexOffset:600})
+   .bindPopup(popup(i).replace('<span class="muted">km','<span class="muted">Ruta B · km'),{maxWidth:280}).addTo(gInc)});
+ trB.forEach(t=>{byId[t.id]=t;markers[t.id]={openPopup(){L.popup({maxWidth:280}).setLatLng([t.lat,t.lon]).setContent(popup(t)).openOn(map)},getLatLng(){return L.latLng(t.lat,t.lon)}}});
+ itB.filter(i=>i.fotos&&i.fotos.length).forEach(i=>i.fotos.forEach((f,k)=>{L.marker([i.lat+k*0.00006,i.lon+0.00012],{icon:L.divIcon({className:'',html:`<span class="lf-foto">${camSvg}</span>`,iconSize:[24,24],iconAnchor:[12,12]})}).on('click',()=>openPhoto(f,i)).addTo(gFot)}));
+ const allB=[...trB.map(t=>({...t,kind:'t',k:t.km_ini})),...itB.map(i=>({...i,kind:'p',k:i.km}))].sort((a,b)=>a.k-b.k||(a.kind==='t'?-1:1));
+ $('#cardsB').innerHTML=`<div class="grp"><p class="eyebrow">Ruta B · revisada el 21/11/2026</p><h3>Tram per Sant Cristòfol la Vella</h3><p>Des de la creu groga (W19, km ${fmt(RB.k_creu)}) fins que s'enllaça amb la ruta A (km ${fmt(RB.k_rej)}). Els quilòmetres es compten sobre la ruta B.</p></div><div class="cards">${allB.map(card).join('').replace(/<span class="badge b-id">/g,'<span class="badge b-rb">Ruta B</span><span class="badge b-id">')}</div>`;
+ document.querySelectorAll('#filters .chip .c')[0].textContent=document.querySelectorAll('.card').length;
+}
 /* ---------- interaccions ---------- */
 document.addEventListener('click',e=>{const g=e.target.closest('[data-go]');if(g){e.preventDefault();showOnMap(g.dataset.go)}
  const ph=e.target.closest('[data-photo]');if(ph)openPhoto(ph.dataset.photo,byId[ph.dataset.id])});

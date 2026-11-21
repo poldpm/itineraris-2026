@@ -45,4 +45,9 @@
     <sym>Scenic Area</sym>
     <type>Patrimoni</type>
   </wpt>
+  <wpt lat="42.22916" lon="2.15423">
+    <name>P08 Ruïnes de Sant Cristòfol «la Vella» (ruta B)</name>
+    <desc>Ruta B · Patrimoni · km 9,91</desc>
+    <sym>Scenic Area</sym>
+  </wpt>
 </gpx>
